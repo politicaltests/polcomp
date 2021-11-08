@@ -16,6 +16,7 @@ div.header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: blur(4px);
 }
 
 div.headeritems {
