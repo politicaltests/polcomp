@@ -39,7 +39,10 @@ button.headerbtn {
   font-family: 'Inter', sans-serif;
 }
 
-h1.title, p.desc {
+h1.title {
   color: white;
-  text-align: center;
+}
+
+.desc {
+  color: #999
 }
