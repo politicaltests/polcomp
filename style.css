@@ -23,6 +23,10 @@ h1 {
   font-family: 'Hahmlet', serif;
 }
  
+h2, h3 {
+  font-family: 'Hahmlet', serif;
+}
+
 p {
   font-family: 'Inter', sans-serif;
   font-size: 20pt;
