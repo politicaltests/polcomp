@@ -8,6 +8,10 @@ p {
   font-size: 20pt;
 }
 
+#blur {
+  filter: blur(4px);
+}
+
 div.header {
   background-image: url("compass.png");
   background-color: #313131;
@@ -16,7 +20,6 @@ div.header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(4px);
 }
 
 div.headeritems {
