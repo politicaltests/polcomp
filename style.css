@@ -14,7 +14,9 @@ body {
   border-width: 0px 15px 0px 15px;
 }
 
-.main {
+.element {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  width: 100%;
   padding: 30px;
 }
   
