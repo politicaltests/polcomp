@@ -48,12 +48,13 @@ button.headerbtn {
   font-size: 18pt;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0px 10px 0px 10px;
   transition: transform .2s;
 }
 
 button.headerbtn:hover {
-  border-color: #999;
-  color: #999;
+  border-color: #AAA;
+  color: #AAA;
   transform: scale(1.05);
 }
 
