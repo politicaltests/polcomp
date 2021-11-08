@@ -23,13 +23,14 @@ h1 {
   font-family: 'Hahmlet', serif;
 }
  
-h2, h3 {
+h2 {
+  font-size: 30pt;
   font-family: 'Hahmlet', serif;
 }
 
 p {
   font-family: 'Inter', sans-serif;
-  font-size: 20pt;
+  font-size: 16pt;
 }
 
 #blur {
@@ -68,7 +69,7 @@ button.headerbtn {
   font-size: 18pt;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0px 10px 0px 10px;
+  margin: 5px 10px 5px 10px;
   transition: transform .2s;
 }
 
@@ -83,7 +84,8 @@ h1.title {
 }
 
 .desc {
-  color: #CCC
+  color: #CCC;
+  font-size: 22pt;
 }
 
 .headerbtn .material-icons {
