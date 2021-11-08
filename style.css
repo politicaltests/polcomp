@@ -40,14 +40,19 @@ div.headertext, div.headerbuttons {
 
 button.headerbtn {
   border-radius: 40px;
-  border: 5px solid #FFF;
+  border: 3px solid #FFF;
   background-color: transparent;
   color: #FFF;
   font-weight: bold;
   font-family: 'Inter', sans-serif;
   font-size: 18pt;
-  margin-left: 5px;
-  margin-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+button.headerbtn:hover {
+  border-color: #999;
+  color: #999;
 }
 
 h1.title {
@@ -55,7 +60,7 @@ h1.title {
 }
 
 .desc {
-  color: #999
+  color: #CCC
 }
 
 .headerbtn .material-icons {
