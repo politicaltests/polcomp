@@ -45,7 +45,9 @@ button.headerbtn {
   color: #FFF;
   font-weight: bold;
   font-family: 'Inter', sans-serif;
-  font-size: 24pt
+  font-size: 18pt;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 h1.title {
@@ -57,7 +59,7 @@ h1.title {
 }
 
 .headerbtn .material-icons {
-  font-size: 24pt;
+  font-size: 18pt;
   display: inline-block;
   margin-right: 10px;
   vertical-align: middle;
