@@ -1,0 +1,45 @@
+h1 {
+  font-size: 60pt;
+  font-family: 'Hahmlet', serif;
+}
+ 
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 20pt;
+}
+
+div.header {
+  background-image: url("compass.png");
+  background-color: #313131;
+  height: 100vmin; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.headeritems {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.headertext, div.headerbuttons {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button.headerbtn {
+  border-radius: 40px;
+  border: 5px solid #FFF;
+  background-color: transparent;
+  color: #FFF;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+}
+
+title.desc, p.desc {
+  color: white;
+  text-align: center;
+}
