@@ -119,3 +119,9 @@ button.headerbtn:hover {
   margin-left: 5px;
   vertical-align: middle;
 }
+
+@media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  h1        { font-size: 60pt; }
+  h2        { width: 100%; margin: 0; }
+  element.p { width: 100% }
+}
