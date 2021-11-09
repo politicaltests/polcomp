@@ -69,3 +69,20 @@
   
   
 </body>
+
+<script>
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+  var w = (window.innerHeight + 10);
+
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > w || document.documentElement.scrollTop > w) {
+      document.getElementsByTagName("BODY").style.width = "100%";
+      document.getElementsByTagName("BODY").style.borderStyle = "none";
+    } else {
+      document.getElementsByTagName("BODY").style.width = "80%";
+      document.getElementsByTagName("BODY").style.borderStyle = "solid";
+    }
+  }
+</script>
