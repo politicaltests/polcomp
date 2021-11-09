@@ -40,7 +40,7 @@ p {
 }
 
 div.header {
-  background-image: url("compass.png");
+  background-image: url("img/compass.png");
   background-color: #313131;
   height: 100vh; 
   background-attachment: fixed;
