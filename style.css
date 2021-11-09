@@ -9,7 +9,7 @@ body {
   width: 100%;
   min-height: calc(100vh - 4em);
   margin: 0 auto;
-  background-color: #ddd;
+  background-color: #DDD;
   border-style: none;
   border-color: #eceff4;
   border-width: 0px 15px 0px 15px;
@@ -18,6 +18,17 @@ body {
 
 .element {
   padding: 30px;
+}
+
+.divimg1 {
+  width: 100%;
+  height: 10%;
+}
+
+.divimg2 {
+  width: 100%;
+  height: 10%;
+  transform: rotate(180deg);
 }
   
 h1 {
