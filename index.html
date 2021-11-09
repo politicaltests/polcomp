@@ -22,7 +22,7 @@
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
-<body>
+<body id="bodydiv">
   <div class="header">
     <div class="headeritems">
       
@@ -78,11 +78,11 @@
   
   function scrollFunction() {
     if (document.body.scrollTop > w || document.documentElement.scrollTop > w) {
-      document.getElementsByTagName("BODY").style.width = "100%";
-      document.getElementsByTagName("BODY").style.borderStyle = "none";
+      document.getElementById("bodydiv").style.width = "100%";
+      document.getElementById("bodydiv").style.borderStyle = "none";
     } else {
-      document.getElementsByTagName("BODY").style.width = "80%";
-      document.getElementsByTagName("BODY").style.borderStyle = "solid";
+      document.getElementById("bodydiv").style.width = "80%";
+      document.getElementById("bodydiv").style.borderStyle = "solid";
     }
   }
 </script>
