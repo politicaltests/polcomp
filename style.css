@@ -32,18 +32,33 @@ body {
 }
   
 h1 {
-  font-size: 4.5vw;
+  font-size: 50pt;
   font-family: 'Hahmlet', serif;
+}
+
+h1.title {
+  color: white;
+  font-size: 4.5vw;
 }
  
 h2 {
   font-size: 30pt;
   font-family: 'Manrope', sans-serif;
+  display: inline-block;
+  width: 30%;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 p {
   font-family: 'Jost', sans-serif;
   font-size: 16pt;
+}
+
+.element p {
+  display: inline-block;
+  width: 60%;
+  vertical-align: middle;
 }
 
 #blur {
@@ -91,10 +106,6 @@ button.headerbtn:hover {
   border-color: #AAA;
   color: #AAA;
   transform: scale(1.05);
-}
-
-h1.title {
-  color: white;
 }
 
 .desc {
