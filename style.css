@@ -38,11 +38,11 @@ h1 {
  
 h2 {
   font-size: 30pt;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Manrope', sans-serif;
 }
 
 p {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Jost', sans-serif;
   font-size: 16pt;
 }
 
@@ -79,7 +79,7 @@ button.headerbtn {
   background-color: transparent;
   color: #FFF;
   font-weight: bold;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Jost', sans-serif;
   font-size: 18pt;
   padding-left: 15px;
   padding-right: 15px;
