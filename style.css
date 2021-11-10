@@ -134,16 +134,15 @@ button.headerbtn:hover {
   bottom: 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-sizing: border-box;
+  display: flex;
 }
 
 .column1 {
   width: 50%;
-  display: inline-block;
 }
 
 .column {
   width: 25%;
-  display: inline-block;
 }
 
 .column p, .column1 p {
