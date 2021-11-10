@@ -26,8 +26,26 @@
 Bootstrap Icons
   
 <div class="bottombar">
-  <p><b>Bruh:</b> <span id="a"></span></p>
-  <p><b>Bruh:</b> <span id="b"></span></p>
+  
+  <div class="column1">
+    <p><b>Name:</b> <span id="name"></span></p>
+    <p><span id="desc"</span> <a href="" id="link"></p>
+  </div>
+    
+  <div class="column">
+    <p><b>Theorized By:</b> <span id="theorized_by"></span></p>
+    <p><b>Theorized In:</b> <span id="theorized_in"></span></p>
+    <p><b>Branches:</b> <span id="branches"></span></p>
+  </div>
+  
+  <div class="column">
+    <p><b>Government:</b> <span id="government"></span></p>
+    <p><b>Economics:</b> <span id="economics"></span></p>
+    <p><b>Culture:</b> <span id="culture"></span></p>
+    <p><b>Diplomacy:</b> <span id="diplomacy"></span></p>
+  </div>
+  
+</div>
 </body>
 
 <script>
@@ -35,6 +53,8 @@ Bootstrap Icons
 example = ["bruh", "Hello World"]
 
 function changeText(example) {
+   var link = example[2];
+   document.getElementById("link").href = link;
    document.getElementById("a").innerHTML = example[0];
    document.getElementById("b").innerHTML = example[1];
 }
