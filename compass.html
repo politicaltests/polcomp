@@ -25,11 +25,15 @@
 <body>
 Bootstrap Icons
   
+<div class="grid-container">
+  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+</div>
+  
 <div class="bottombar">
   
   <div class="column1">
     <p><b>Name:</b> <a href="" id="link"><span id="name"></span></a></p>
-    <p><span id="desc"</span></p>
+    <p><span id="desc"></span></p>
   </div>
     
   <div class="column">
@@ -50,17 +54,19 @@ Bootstrap Icons
 
 <script>
 
-example = ["bruh", "Hello World"]
+example = { name: "example", link: "www.google.com", desc: "description", thby: "test", thin: "100AD",
+            govt: "some view", econ: "some view", cult: "some view", dipl: "some view" };
 
 function changeText(example) {
-   var link = example[2];
+   var link = example.link;
    document.getElementById("link").href = link;
-   document.getElementById("a").innerHTML = example[0];
-   document.getElementById("b").innerHTML = example[1];
-}
-
-function revertText(example) {
-   document.getElementById("a").innerHTML = "none";
-   document.getElementById("b").innerHTML = "none";
+   document.getElementById("name").innerHTML = example.name;
+   document.getElementById("desc").innerHTML = example.desc;
+   document.getElementById("theorized_by").innerHTML = example.thby;
+   document.getElementById("theorized_in").innerHTML = example.thin;
+   document.getElementById("government").innerHTML = example.govt;
+   document.getElementById("economics").innerHTML = example.econ;
+   document.getElementById("culture").innerHTML = example.cult;
+   document.getElementById("diplomacy").innerHTML = example.dipl;
 }
 </script>
