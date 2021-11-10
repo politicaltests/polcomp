@@ -14,6 +14,7 @@ body {
   border-color: #eceff4;
   border-width: 0px 15px 0px 15px;
   transition: 0.5s;
+  overflow: hidden;
 }
 
 body#bodydiv {
@@ -132,8 +133,7 @@ button.headerbtn:hover {
   padding: 20px 30px 20px 30px;
   background-color: darkgray;
   position: absolute;
-  bottom: 0px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: 100vh;
   box-sizing: border-box;
   display: flex;
   transition: 0.5s;
