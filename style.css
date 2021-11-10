@@ -128,8 +128,7 @@ button.headerbtn:hover {
 /* Bottom Bar */
 .bottombar {
   width: 80%;
-  min-height: 16%;
-  min-height: 22%;
+  height: 18%;
   padding: 20px 30px 20px 30px;
   background-color: darkgray;
   position: absolute;
