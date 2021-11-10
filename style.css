@@ -121,13 +121,13 @@ button.headerbtn:hover {
 }
 
 .bottombar {
-  width: 100%;
+  width: 80%;
   padding: 30px;
   background-color: darkgray;
   position: absolute;
-  left: 0px;
   bottom: 0px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-sizing: border-box;
 }
 
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
