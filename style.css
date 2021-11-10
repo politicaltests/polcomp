@@ -166,11 +166,11 @@ button.headerbtn:hover {
 }
 
 .ideoshort {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .ideoname {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
