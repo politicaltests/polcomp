@@ -149,6 +149,30 @@ button.headerbtn:hover {
   line-height: 0;
 }
 
+/* Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #333;
+  padding: 20px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+.ideoshort {
+  font-size: 20px;
+}
+
+.ideoname {
+  font-size: 10px;
+}
+
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
   h1          { font-size: 60pt; }
   h2          { width: 100%; margin: 0; }
