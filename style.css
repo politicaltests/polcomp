@@ -169,6 +169,8 @@ button.headerbtn:hover {
 
 .ideoshort {
   font-size: 30px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: bold;
 }
 
 .ideoname {
