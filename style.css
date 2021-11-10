@@ -150,7 +150,10 @@ button.headerbtn:hover {
 }
 
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  h1        { font-size: 60pt; }
-  h2        { width: 100%; margin: 0; }
-  element.p { width: 100% }
+  h1         { font-size: 60pt; }
+  h2         { width: 100%; margin: 0; }
+  element.p  { width: 100% }
+  .bottombar { flex-wrap: wrap; }
+  .column1   { width: 100%; }
+  .column    { width: 50%; }
 }
