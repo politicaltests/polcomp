@@ -53,7 +53,10 @@ Bootstrap Icons
 </body>
 
 <script>
-
+window.onload = function loadAnimation() {
+  document.getElementById("bottombar").style.top = "calc(100vh - 18%)";
+}
+  
 example = 
 { name: "example", link: "www.google.com", desc: "description", thby: "test", thin: "100AD",
 branches: "example1, example2, example3", govt: "some view", econ: "some view", cult: "some view", dipl: "some view" };
