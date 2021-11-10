@@ -6,8 +6,8 @@ html {
 }
   
 body {
-  width: 100%;
-  min-height: 100vh;
+  width: 80%;
+  min-height: (100vh - 4em);
   margin: 0 auto;
   background-color: #DDD;
   border-style: solid;
@@ -17,7 +17,7 @@ body {
 }
 
 body#bodydiv {
-  width: 80%;
+  width: 100%;
   border-style: none;
 }
 
