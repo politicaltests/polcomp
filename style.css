@@ -166,11 +166,22 @@ button.headerbtn:hover {
 }
 
 /* Categories */
-.caticon {
-  width: 5px;
-  height: 5px;
+.categories {
+  min-width: 40%;
+}
+
+.categories p {
+  display: inline-block;
   vertical-align: middle;
-  margin-right: 5px;
+}
+
+.caticon {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 10px;
+  border: 4px solid black;
+  display: inline-block;
 }
 
 /* Grid */
