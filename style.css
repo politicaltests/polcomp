@@ -156,6 +156,10 @@ button.headerbtn:hover {
   color: #fff
 }
 
+.column p a, .column1 p a {
+  color: lightblue;
+}
+
 /* Grid */
 .grid-container {
   display: grid;
