@@ -192,12 +192,18 @@ button.headerbtn:hover {
 /* Grid */
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   background-color: #333;
   padding: 20px;
   column-gap: 10px;
   row-gap: 10px;
   border-radius: 20px;
+}
+
+.grid-label {
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
 }
 
 .grid-item {
@@ -214,6 +220,10 @@ button.headerbtn:hover {
 
 .ideoname {
   font-size: 20px;
+}
+
+.grid-label .ideoshort, .grid-label .ideoshort {
+  color: white;
 }
 
 /* Mobile */
