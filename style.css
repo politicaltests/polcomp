@@ -195,8 +195,8 @@ button.headerbtn:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   background-color: #333;
   padding: 20px;
-  column-gap: 10px;
-  row-gap: 10px;
+  column-gap: 5px;
+  row-gap: 5px;
   border-radius: 20px;
 }
 
@@ -213,13 +213,13 @@ button.headerbtn:hover {
 }
 
 .ideoshort {
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Manrope', sans-serif;
   font-weight: bold;
 }
 
 .ideoname {
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .grid-label .ideoshort, .grid-label .ideoname {
