@@ -23,8 +23,9 @@ body#bodydiv {
 }
 
 .maindiv {
- padding: 30px;
- display: flex;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
 }
 
 .element {
@@ -167,9 +168,10 @@ button.headerbtn:hover {
 
 /* Categories */
 .categories {
-  min-width: 40%;
+  min-width: 30%;
   padding: 20px;
   background-color: #333;
+  border-radius: 20px;
 }
 
 .categories p {
@@ -195,6 +197,7 @@ button.headerbtn:hover {
   padding: 20px;
   column-gap: 10px;
   row-gap: 10px;
+  border-radius: 20px;
 }
 
 .grid-item {
