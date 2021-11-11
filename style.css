@@ -22,6 +22,11 @@ body#bodydiv {
   border-style: none;
 }
 
+.maindiv {
+ padding: 30px;
+ display: flex;
+}
+
 .element {
   padding: 30px;
 }
@@ -158,6 +163,14 @@ button.headerbtn:hover {
 
 .column p a, .column1 p a {
   color: #42a5f5;
+}
+
+/* Categories */
+.caticon {
+  width: 5px;
+  height: 5px;
+  vertical-align: middle;
+  margin-right: 5px;
 }
 
 /* Grid */
