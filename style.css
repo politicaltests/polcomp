@@ -264,6 +264,15 @@ button.headerbtn:hover {
   border: 2px solid white;
 }
 
+/* Colors */
+.centrism         { background-color: #C0C0C0; }
+.marxism_leninism { background-color: #A52A2A; }
+.socialism        { background-color: #DC143C; }
+.state_capitalism { background-color: #CD5C5C; }
+.fascism          { background-color: #2980b9; }
+.monarchism       { background-color: #6A5ACD; }
+
+
 /* Mobile */
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
   h1          { font-size: 60pt; }
