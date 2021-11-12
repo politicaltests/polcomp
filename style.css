@@ -14,7 +14,6 @@ body {
   border-color: #eceff4;
   border-width: 0px 15px 0px 15px;
   transition: 0.5s;
-  overflow: hidden;
 }
 
 body#bodydiv {
