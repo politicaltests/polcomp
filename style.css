@@ -140,6 +140,14 @@ button.headerbtn:hover {
   transition: 0.5s;
 }
 
+.group {
+  padding: 5px;
+  background-color: #85929e;
+  border-radius: 5px;
+  color: white;
+  display: inline;
+}
+
 .column1 {
   width: 50%;
 }
