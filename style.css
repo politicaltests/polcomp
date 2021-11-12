@@ -211,6 +211,7 @@ button.headerbtn:hover {
   padding: 5px;
   text-align: center;
   transition: 0.1s;
+  border: 2px none white;
 }
 
 .ideoshort {
