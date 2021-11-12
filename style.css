@@ -72,10 +72,6 @@ p {
   vertical-align: middle;
 }
 
-#blur {
-  filter: blur(4px);
-}
-
 div.header {
   background-image: url("img/compass.png");
   background-color: #313131;
@@ -171,6 +167,7 @@ button.headerbtn:hover {
   padding: 20px;
   background-color: #333;
   border-radius: 20px;
+  transition: 0.1s;
 }
 
 .categories p {
@@ -206,12 +203,14 @@ button.headerbtn:hover {
   background-color: transparent;
   padding: 5px;
   text-align: center;
+  transition: 0.1s;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 5px;
   text-align: center;
+  transition: 0.1s;
 }
 
 .ideoshort {
@@ -226,6 +225,15 @@ button.headerbtn:hover {
 
 .grid-label .ideoshort, .grid-label .ideoname {
   color: white;
+}
+
+.grid-label:hover {
+  transform: scale(1.05);
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+  border: 2px solid white;
 }
 
 /* Mobile */
