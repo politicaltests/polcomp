@@ -156,7 +156,7 @@ button.headerbtn:hover {
   font-size: 14pt;
 }
 
-#desc {
+#desc, #branches {
   line-height: 1;
 }
 
