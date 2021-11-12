@@ -17,7 +17,7 @@ thby: "Joseph Stalin", branches: "-", govt: "Totalitarian", econ: "Communist", c
 nazbol = { group: "Marxism<span class='material-icons'>chevron_right</span>Marxism-Leninism", 
 name: "National Bolshevism", link: "https://en.wikipedia.org/wiki/National_Bolshevism", 
 desc: "National Bolshevism is a radical political movement that combines ultranationalism and communism. It is a branch of Marxism-Leninism that combines it with elements of Fascism.", 
-thby: "Miltiple, incl. Nikolay Vasilyevich Ustryalov", branches: "-", govt: "Totalitarian", econ: "Communist", cult: "Reactionary", dipl: "Ultranationalist" };
+thby: "Multiple, incl. Nikolay Vasilyevich Ustryalov", branches: "-", govt: "Totalitarian", econ: "Communist", cult: "Reactionary", dipl: "Ultranationalist" };
 
 strasserism = { group: "Fascism<span class='material-icons'>chevron_right</span>National Socialism", 
 name: "Strasserism", link: "https://en.wikipedia.org/wiki/Strasserism", 
