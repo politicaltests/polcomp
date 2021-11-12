@@ -156,6 +156,10 @@ button.headerbtn:hover {
   font-size: 14pt;
 }
 
+#desc {
+  line-height: 0.9;
+}
+
 .column1 {
   width: 50%;
 }
