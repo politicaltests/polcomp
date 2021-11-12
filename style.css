@@ -212,7 +212,7 @@ button.headerbtn:hover {
 .grid-container {
   display: grid;
   grid-template-columns: calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%);
-  grid-template-rows: calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%);
+  /* grid-template-rows: calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%); */
   background-color: #333;
   padding: 20px;
   column-gap: 5px;
