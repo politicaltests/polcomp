@@ -228,9 +228,8 @@ button.headerbtn:hover {
   transition: 0.1s;
 }
 
-.grid-label .vertical {
+.vertical-label {
   padding: 5px 0;
-  
 }
 
 .grid-item {
