@@ -258,7 +258,7 @@ button.headerbtn:hover {
 }
 
 .grid-item:hover {
-  transform: scale(1.05);
+  transform: scale(1.2);
   border: 2px solid white;
 }
 
