@@ -157,11 +157,13 @@ button.headerbtn:hover {
 }
 
 #desc {
-  line-height: 0.9;
+  line-height: 1;
 }
 
 .column1 {
   width: 50%;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 .column {
