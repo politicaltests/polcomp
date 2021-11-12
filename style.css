@@ -147,6 +147,13 @@ button.headerbtn:hover {
   color: white;
   display: inline-block;
   margin: 0;
+  vertical-align: middle;
+  font-size: 14pt;
+}
+
+.group .material-icons {
+  vertical-align: middle;
+  font-size: 14pt;
 }
 
 .column1 {
