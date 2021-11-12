@@ -215,7 +215,7 @@ button.headerbtn:hover {
   /* grid-template-rows: calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%); */
   background-color: #333;
   padding: 20px 20px 20px 0px;
-  column-gap: 5px;
+  column-gap: calc(1/210 * 100%);
   row-gap: 5px;
   border-radius: 20px;
   width: 80%;
