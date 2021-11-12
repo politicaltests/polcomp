@@ -224,12 +224,14 @@ button.headerbtn:hover {
   font-size: 0.8vw;
 }
 
-.grid-label .ideoshort, .grid-label .ideoname {
+.grid-label .ideoshort {
   color: white;
+  font-size: 1.4vw;
+  transition: border-color ease 0.2s;
 }
 
-.grid-label:hover {
-  transform: scale(1.05);
+.grid-label:hover .ideoshort {
+  font-size: 1.7vw
 }
 
 .grid-item:hover {
