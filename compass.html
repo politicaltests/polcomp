@@ -83,6 +83,7 @@ branches: "example1, example2, example3", govt: "some view", econ: "some view", 
 function changeText(example) {
    var link = example.link;
    document.getElementById("link").href = link;
+   document.getElementById("group").innerHTML = example.group;
    document.getElementById("name").innerHTML = example.name;
    document.getElementById("desc").innerHTML = example.desc;
    document.getElementById("theorized_by").innerHTML = example.thby;
