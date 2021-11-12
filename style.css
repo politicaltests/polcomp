@@ -142,10 +142,11 @@ button.headerbtn:hover {
 
 .group {
   padding: 5px;
-  background-color: #85929e;
+  background-color: #5d6d7e;
   border-radius: 5px;
   color: white;
-  display: inline;
+  display: inline-block;
+  margin: 0;
 }
 
 .column1 {
