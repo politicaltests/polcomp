@@ -193,7 +193,8 @@ button.headerbtn:hover {
   display: inline-block;
   vertical-align: middle;
   color: white;
-  font-size: 1.3vw
+  font-size: 1.3vw;
+  margin: 0;
 }
 
 .caticon {
