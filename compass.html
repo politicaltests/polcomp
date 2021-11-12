@@ -105,8 +105,8 @@ Bootstrap Icons
         
   <div class="column">
     <p><b>Theorized By:</b> <span id="theorized_by">-</span></p>
-    <p><b>Theorized In:</b> <span id="theorized_in">-</span></p>
     <p><b>Branches:</b> <span id="branches">-</span></p>
+    <p class="group"><span id="group">-</span></p>
   </div>
   
   <div class="column">
@@ -114,7 +114,6 @@ Bootstrap Icons
     <p><b>Economics:</b> <span id="economics">-</span></p>
     <p><b>Culture:</b> <span id="culture">-</span></p>
     <p><b>Diplomacy:</b> <span id="diplomacy">-</span></p>
-    <p class="group"><span id="group">-</span></p>
   </div>
   
 </div>
@@ -130,7 +129,6 @@ function changeText(example) {
    document.getElementById("name").innerHTML = example.name;
    document.getElementById("desc").innerHTML = example.desc;
    document.getElementById("theorized_by").innerHTML = example.thby;
-   document.getElementById("theorized_in").innerHTML = example.thin;
    document.getElementById("government").innerHTML = example.govt;
    document.getElementById("economics").innerHTML = example.econ;
    document.getElementById("culture").innerHTML = example.cult;
