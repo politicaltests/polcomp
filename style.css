@@ -265,13 +265,19 @@ button.headerbtn:hover {
 }
 
 /* Colors */
-.centrism         { background-color: #C0C0C0; }
-.marxism_leninism { background-color: #A52A2A; }
-.socialism        { background-color: #DC143C; }
-.state_capitalism { background-color: #CD5C5C; }
-.fascism          { background-color: #2980b9; }
-.monarchism       { background-color: #6A5ACD; }
-
+.centrism      { background-color: #C0C0C0; }
+.marxlenin     { background-color: #A52A2A; }
+.socialism     { background-color: #DC143C; }
+.statecap      { background-color: #CD5C5C; }
+.fascism       { background-color: #2980b9; }
+.monarchism    { background-color: #6A5ACD; }
+.conservatism  { background-color: #4682B4; }
+.socdem        { background-color: #9ACD32; }
+.leftbert      { background-color: #6B8E23; }
+.leftanarchism { background-color: #2E8B57; }
+.liberalism    { background-color: #ddd488; }
+.rightbert     { background-color: #FFD700; }
+.leftanarchism { background-color: #DAA520; }
 
 /* Mobile */
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
