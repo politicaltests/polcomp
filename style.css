@@ -141,9 +141,9 @@ button.headerbtn:hover {
 }
 
 .group {
-  padding: 5px;
+  padding: 10px;
   background-color: #5d6d7e;
-  border-radius: 5px;
+  border-radius: 10px;
   color: white;
   display: inline-block;
   margin: 0;
