@@ -168,7 +168,7 @@ button.headerbtn:hover {
 
 /* Categories */
 .categories {
-  min-width: 20%;
+  width: 20%;
   padding: 20px;
   background-color: #333;
   border-radius: 20px;
@@ -199,6 +199,7 @@ button.headerbtn:hover {
   column-gap: 5px;
   row-gap: 5px;
   border-radius: 20px;
+  width: 80%;
 }
 
 .grid-label {
