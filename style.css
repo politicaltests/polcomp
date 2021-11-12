@@ -227,7 +227,7 @@ button.headerbtn:hover {
 .grid-label .ideoshort {
   color: white;
   font-size: 1.4vw;
-  transition: border-color ease 0.2s;
+  transition: font-size ease 0.1s;
 }
 
 .grid-label:hover .ideoshort {
