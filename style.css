@@ -285,19 +285,19 @@ button.headerbtn:hover {
 .rightanarchy { background-color: #B8860B; }
 
 /* Hide other Categories */
-.catcontainer.centrism:active     ~ grid-item:not(.centrism)     { background-color: aaa;}
-.catcontainer.marxlenin:active    ~ grid-item:not(.marxlenin)    { background-color: aaa;}
-.catcontainer.socialism:active    ~ grid-item:not(.socialism)    { background-color: aaa;}
-.catcontainer.statecap:active     ~ grid-item:not(.statecap)     { background-color: aaa;}
-.catcontainer.fascism:active      ~ grid-item:not(.fascism)      { background-color: aaa;}
-.catcontainer.monarchism:active   ~ grid-item:not(.monarchism)   { background-color: aaa;}
-.catcontainer.conservatism:active ~ grid-item:not(.conservatism) { background-color: aaa;}
-.catcontainer.socdem:active       ~ grid-item:not(.socdem)       { background-color: aaa;}
-.catcontainer.leftbert:active     ~ grid-item:not(.leftbert)     { background-color: aaa;}
-.catcontainer.leftanarchy:active  ~ grid-item:not(.leftanarchy)  { background-color: aaa;}
-.catcontainer.liberalism:active   ~ grid-item:not(.liberalism)   { background-color: aaa;}
-.catcontainer.rightbert:active    ~ grid-item:not(.rightbert)    { background-color: aaa;}
-.catcontainer.rightanarchy:active ~ grid-item:not(.rightanarchy) { background-color: aaa;}
+.catcontainer.centrism:hover     ~ grid-item:not(.centrism)     { background-color: aaa;}
+.catcontainer.marxlenin:hover    ~ grid-item:not(.marxlenin)    { background-color: aaa;}
+.catcontainer.socialism:hover    ~ grid-item:not(.socialism)    { background-color: aaa;}
+.catcontainer.statecap:hover     ~ grid-item:not(.statecap)     { background-color: aaa;}
+.catcontainer.fascism:hover      ~ grid-item:not(.fascism)      { background-color: aaa;}
+.catcontainer.monarchism:hover   ~ grid-item:not(.monarchism)   { background-color: aaa;}
+.catcontainer.conservatism:hover ~ grid-item:not(.conservatism) { background-color: aaa;}
+.catcontainer.socdem:hover       ~ grid-item:not(.socdem)       { background-color: aaa;}
+.catcontainer.leftbert:hover     ~ grid-item:not(.leftbert)     { background-color: aaa;}
+.catcontainer.leftanarchy:hover  ~ grid-item:not(.leftanarchy)  { background-color: aaa;}
+.catcontainer.liberalism:hover   ~ grid-item:not(.liberalism)   { background-color: aaa;}
+.catcontainer.rightbert:hover    ~ grid-item:not(.rightbert)    { background-color: aaa;}
+.catcontainer.rightanarchy:hover ~ grid-item:not(.rightanarchy) { background-color: aaa;}
 
 /* Mobile */
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
