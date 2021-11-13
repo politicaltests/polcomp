@@ -24,7 +24,7 @@
 
 <body>
 Bootstrap Icons
-<div class="maindiv" onclick="">
+<div class="maindiv" onclick="reset()">
   
 <div class="categories">
   <div class="catcontainer"><div class="caticon centrism"></div><p>Centrism</p></div>
@@ -166,7 +166,7 @@ function reset() {
   document.getElementById("economics").innerHTML = "";
   document.getElementById("culture").innerHTML = "";
   document.getElementById("diplomacy").innerHTML = "";
-  document.getElementsByClassName("grid-item").style.border = "2px solid transparent";
+  document.getElementsByClassName("grid-item").style.border = "none";
 }
   
 </script>
