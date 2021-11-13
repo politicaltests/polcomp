@@ -118,6 +118,13 @@ Bootstrap Icons
 
 <script type="application/javascript" src="ideologies.js"></script>
 <script>
+$(document).ready(function(){
+  $(".grid-item").hover(function(){
+    $(this).css("border", "2px solid white");
+    }, function(){
+    $(this).css("border", "2px solid transparent");
+  });
+});
 
 function changeText(example) {
   var link = example.link;
