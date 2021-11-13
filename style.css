@@ -264,6 +264,10 @@ button.headerbtn:hover {
   border: 2px solid white;
 }
 
+.grid-item:active {
+  border: 2px solid white;
+}
+
 /* Colors */
 .centrism     { background-color: #808080; }
 .marxlenin    { background-color: #A52A2A; }
@@ -278,6 +282,21 @@ button.headerbtn:hover {
 .liberalism   { background-color: #dba14b; }
 .rightbert    { background-color: #d4ac0d; }
 .rightanarchy { background-color: #B8860B; }
+
+/* Hide other Categories */
+.catcontainer.centrism:active     ~ grid-item:not(.centrism)     { background-color: aaa;}
+.catcontainer.marxlenin:active    ~ grid-item:not(.marxlenin)    { background-color: aaa;}
+.catcontainer.socialism:active    ~ grid-item:not(.socialism)    { background-color: aaa;}
+.catcontainer.statecap:active     ~ grid-item:not(.statecap)     { background-color: aaa;}
+.catcontainer.fascism:active      ~ grid-item:not(.fascism)      { background-color: aaa;}
+.catcontainer.monarchism:active   ~ grid-item:not(.monarchism)   { background-color: aaa;}
+.catcontainer.conservatism:active ~ grid-item:not(.conservatism) { background-color: aaa;}
+.catcontainer.socdem:active       ~ grid-item:not(.socdem)       { background-color: aaa;}
+.catcontainer.leftbert:active     ~ grid-item:not(.leftbert)     { background-color: aaa;}
+.catcontainer.leftanarchy:active  ~ grid-item:not(.leftanarchy)  { background-color: aaa;}
+.catcontainer.liberalism:active   ~ grid-item:not(.liberalism)   { background-color: aaa;}
+.catcontainer.rightbert:active    ~ grid-item:not(.rightbert)    { background-color: aaa;}
+.catcontainer.rightanarchy:active ~ grid-item:not(.rightanarchy) { background-color: aaa;}
 
 /* Mobile */
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
