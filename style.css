@@ -246,6 +246,7 @@ button.headerbtn:hover {
 .ideoname {
   font-size: 0.7vw;
   color: #e5e8e8;
+  font-weight: bold;
 }
 
 .grid-label .ideoshort {
