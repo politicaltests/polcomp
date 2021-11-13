@@ -24,22 +24,22 @@
 
 <body>
 Bootstrap Icons
-<div class="maindiv">
+<div class="maindiv" onclick="reset()">
   
 <div class="categories">
-  <div class="catcontainer"><div class="caticon centrism"></div><p>Centrism</p></div><br>
-  <div class="catcontainer"><div class="caticon marxlenin"></div><p>Marxism-Leninism</p></div><br>
-  <div class="catcontainer"><div class="caticon socialism"></div><p>Non-Marxist Socialism</p></div><br>
-  <div class="catcontainer"><div class="caticon statecap"></div><p>State Capitalism</p></div><br>
-  <div class="catcontainer"><div class="caticon fascism"></div><p>Fascism</p></div><br>
-  <div class="catcontainer"><div class="caticon monarchism"></div><p>Monarchism</p></div><br>
-  <div class="catcontainer"><div class="caticon conservatism"></div><p>Conservatism</p></div><br>
-  <div class="catcontainer"><div class="caticon socdem"></div><p>Social Democracy</p></div><br>
-  <div class="catcontainer"><div class="caticon leftbert"></div><p>Left-Libertarianism</p></div><br>
-  <div class="catcontainer"><div class="caticon leftanarchy"></div><p>Left-Anarchism</p></div><br>
-  <div class="catcontainer"><div class="caticon liberalism"></div><p>Liberalism</p></div><br>
-  <div class="catcontainer"><div class="caticon rightbert"></div><p>Right-Libertarianism</p></div><br>
-  <div class="catcontainer"><div class="caticon rightanarchy"></div><p>Right-Anarchism</p></div><br>
+  <div class="catcontainer"><div class="caticon centrism"></div><p>Centrism</p></div>
+  <div class="catcontainer"><div class="caticon marxlenin"></div><p>Marxism-Leninism</p></div>
+  <div class="catcontainer"><div class="caticon socialism"></div><p>Non-Marxist Socialism</p></div>
+  <div class="catcontainer"><div class="caticon statecap"></div><p>State Capitalism</p></div>
+  <div class="catcontainer"><div class="caticon fascism"></div><p>Fascism</p></div>
+  <div class="catcontainer"><div class="caticon monarchism"></div><p>Monarchism</p></div>
+  <div class="catcontainer"><div class="caticon conservatism"></div><p>Conservatism</p></div>
+  <div class="catcontainer"><div class="caticon socdem"></div><p>Social Democracy</p></div>
+  <div class="catcontainer"><div class="caticon leftbert"></div><p>Left-Libertarianism</p></div>
+  <div class="catcontainer"><div class="caticon leftanarchy"></div><p>Left-Anarchism</p></div>
+  <div class="catcontainer"><div class="caticon liberalism"></div><p>Liberalism</p></div>
+  <div class="catcontainer"><div class="caticon rightbert"></div><p>Right-Libertarianism</p></div>
+  <div class="catcontainer"><div class="caticon rightanarchy"></div><p>Right-Anarchism</p></div>
 </div>
     
 <div class="grid-container">
@@ -61,34 +61,34 @@ Bootstrap Icons
 
   <!-- Row 2 -->
   <div class="grid-label vertical-label"> <p class="ideoshort">1</p></div>
-  <div class="grid-item marxlenin" onclick="changeText(polpotism)"><p class="ideoshort">PP</p><p class="ideoname">Pol Potism</p></div>
-  <div class="grid-item marxlenin" onclick="changeText(stalinism)"><p class="ideoshort">St</p><p class="ideoname">Stalinism</p></div>
-  <div class="grid-item marxlenin" onclick="changeText(nazbol)"><p class="ideoshort">NB</p><p class="ideoname">National Bolshevism</p></div>
-  <div class="grid-item socialism" onclick="changeText(strasserism)"><p class="ideoshort">Sr</p><p class="ideoname">Strasserism</p></div>
-  <div class="grid-item marxlenin" onclick="changeText(maoism)"><p class="ideoshort">Ma</p><p class="ideoname">Maoism</p></div>
-  <div class="grid-item marxlenin" onclick="changeText(juche)"><p class="ideoshort">Ju</p><p class="ideoname">Juche</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item marxlenin" onclick="changeText(polpotism) clickCell(polpotism)"><p class="ideoshort">PP</p><p class="ideoname">Pol Potism</p></div>
+  <div class="grid-item marxlenin" onclick="changeText(stalinism) clickCell(stalinism)"><p class="ideoshort">St</p><p class="ideoname">Stalinism</p></div>
+  <div class="grid-item marxlenin" onclick="changeText(nazbol) clickCell(nazbol)"><p class="ideoshort">NB</p><p class="ideoname">National Bolshevism</p></div>
+  <div class="grid-item socialism" onclick="changeText(strasserism) clickCell(strasserism)"><p class="ideoshort">Sr</p><p class="ideoname">Strasserism</p></div>
+  <div class="grid-item marxlenin" onclick="changeText(maoism) clickCell(maoism)"><p class="ideoshort">Ma</p><p class="ideoname">Maoism</p></div>
+  <div class="grid-item marxlenin" onclick="changeText(juche) clickCell(juche)"><p class="ideoshort">Ju</p><p class="ideoname">Juche</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
   
   
   <!-- Row 3 -->
   <div class="grid-label vertical-label"> <p class="ideoshort">1</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
-  <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
+  <div class="grid-item" onclick="changeText(example) clickCell(example2)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
 </div>
   
 </div>  <!-- Main Div -->
@@ -120,15 +120,34 @@ Bootstrap Icons
 <script>
 
 function changeText(example) {
-   var link = example.link;
-   document.getElementById("link").href = link;
-   document.getElementById("group").innerHTML = example.group;
-   document.getElementById("name").innerHTML = example.name;
-   document.getElementById("desc").innerHTML = example.desc;
-   document.getElementById("theorized_by").innerHTML = example.thby;
-   document.getElementById("government").innerHTML = example.govt;
-   document.getElementById("economics").innerHTML = example.econ;
-   document.getElementById("culture").innerHTML = example.cult;
-   document.getElementById("diplomacy").innerHTML = example.dipl;
+  var link = example.link;
+  document.getElementById("link").href = link;
+  document.getElementById("group").innerHTML = example.group;
+  document.getElementById("name").innerHTML = example.name;
+  document.getElementById("desc").innerHTML = example.desc;
+  document.getElementById("theorized_by").innerHTML = example.thby;
+  document.getElementById("government").innerHTML = example.govt;
+  document.getElementById("economics").innerHTML = example.econ;
+  document.getElementById("culture").innerHTML = example.cult;
+  document.getElementById("diplomacy").innerHTML = example.dipl;
 }
+  
+function clickCell(example2) {
+  document.getElementsByClassName("grid-item").style.border = "2px solid transparent";
+  document.getElementbyId(example2).style.border = "2px solid white";
+}
+  
+function reset() {
+  document.getElementById("link").href = "";
+  document.getElementById("group").innerHTML = "";
+  document.getElementById("name").innerHTML = "";
+  document.getElementById("desc").innerHTML = "";
+  document.getElementById("theorized_by").innerHTML = "";
+  document.getElementById("government").innerHTML = "";
+  document.getElementById("economics").innerHTML = "";
+  document.getElementById("culture").innerHTML = "";
+  document.getElementById("diplomacy").innerHTML = "";
+  document.getElementsByClassName("grid-item").style.border = "2px solid transparent";
+}
+  
 </script>
