@@ -299,6 +299,14 @@ button.headerbtn:hover {
 .catcontainer.rightbert:hover    ~ grid-item:not(.rightbert)    { background-color: aaa;}
 .catcontainer.rightanarchy:hover ~ grid-item:not(.rightanarchy) { background-color: aaa;}
 
+.catcontainer:hover {
+  transform: scale(1.1);
+}
+
+.catcontainer {
+  transition: 0.2s;
+}
+
 /* Mobile */
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
   h1          { font-size: 60pt; }
