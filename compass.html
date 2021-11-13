@@ -135,7 +135,10 @@ function changeText(example) {
 }
   
 function clickCell(example) {
-  document.getElementsByClassName("grid-item").style.border = "2px solid transparent";
+  var all = document.getElementsByClassName("grid-item");
+    for (var i = 0; i < all.length; i++) {
+      all[i].style.border = "2px solid transparent";
+  }
   document.getElementbyId(example).style.border = "2px solid white";
 }
   
