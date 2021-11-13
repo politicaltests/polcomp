@@ -118,11 +118,19 @@ Bootstrap Icons
 
 <script type="application/javascript" src="ideologies.js"></script>
 <script>
+  
 $(document).ready(function(){
   $(".grid-item").hover(function(){
     $(this).css("border", "2px solid white");
     }, function(){
     $(this).css("border", "2px solid transparent");
+  });
+});
+  
+$(document).ready(function(){
+  $('.grid-item').on('click', function(e){
+    e.preventDefault();
+    $(this).css('border', '2px solid white');
   });
 });
 
@@ -138,7 +146,7 @@ function changeText(example) {
   document.getElementById("culture").innerHTML = example.cult;
   document.getElementById("diplomacy").innerHTML = example.dipl;
   
-  clearBorders(example);
+  // clearBorders(example);
 }
   
 /* function clearBorders(example) {
@@ -147,11 +155,6 @@ function changeText(example) {
       all[i].style.border = "2px solid transparent";
   };  
 } */
-  
-$('.grid-item').on('click', function(e){
-  e.preventDefault();
-  $(this).css('border', '2px solid white');
-});
   
 function reset() {
   document.getElementById("link").href = "";
