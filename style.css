@@ -234,7 +234,8 @@ button.headerbtn:hover {
   text-align: center;
   transition: 0.1s;
   border: 2px solid transparent;
-  transition: 0.2s;
+  box-shadow: none;
+  transition: 0.2s, box-shadow ease 0.1s;
 }
 
 .ideoshort {
@@ -262,7 +263,7 @@ button.headerbtn:hover {
 
 .grid-item:hover {
   transform: scale(1.1);
-  border: 2px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 /* Colors */
