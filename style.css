@@ -234,7 +234,7 @@ button.headerbtn:hover {
   text-align: center;
   transition: 0.1s;
   border: 2px solid transparent;
-  transition: background-color ease 0.1s;
+  transition: 0.2s;
 }
 
 .ideoshort {
