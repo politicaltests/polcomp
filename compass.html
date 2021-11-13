@@ -138,14 +138,19 @@ function changeText(example) {
   document.getElementById("culture").innerHTML = example.cult;
   document.getElementById("diplomacy").innerHTML = example.dipl;
   
-  clickCell(example);
+  clearBorders(example);
 }
   
-function clickCell(example) {
+function clearBorders(example) {
   var all = document.getElementsByClassName("grid-item");
     for (var i = 0; i < all.length; i++) {
       all[i].style.border = "2px solid transparent";
   }
+  
+  addBorders(example);
+}
+  
+function addBorders(example) {
   document.getElementbyId(example).style.border = "2px solid white";
 }
   
