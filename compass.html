@@ -141,14 +141,17 @@ function changeText(example) {
   clearBorders(example);
 }
   
-function clearBorders(example) {
+/* function clearBorders(example) {
   var all = document.getElementsByClassName("grid-item");
     for (var i = 0; i < all.length; i++) {
       all[i].style.border = "2px solid transparent";
-  };
+  };  
+} */
   
-  document.getElementById(example).style.border = "2px solid white";
-}
+$('.grid-item').on('click', function(e){
+  e.preventDefault();
+  $(this).css('border', '2px solid white');
+});
   
 function reset() {
   document.getElementById("link").href = "";
