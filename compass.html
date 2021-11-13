@@ -142,12 +142,13 @@ function changeText(example) {
 }
   
 function clearBorders(example) {
-  /* var all = document.getElementsByClassName("grid-item");
+  var all = document.getElementsByClassName("grid-item");
     for (var i = 0; i < all.length; i++) {
       all[i].style.border = "2px solid transparent";
-  }; */
+  };
   
-  document.getElementById(example).style.border = "2px solid white";
+  var bordertochange = document.getElementById(example);
+  bordertochange.style.border = "2px solid white";
 }
   
 function reset() {
