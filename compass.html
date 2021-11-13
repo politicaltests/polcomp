@@ -127,10 +127,11 @@ $(document).ready(function(){
   });
 });
   
-  $('.grid-item').on('click', function(e){
-    e.preventDefault();
-    $(this).css('border', '2px solid white');
+$(document).ready(function(){
+  $(".grid-item").click(function(){
+    $(this).css("border", "2px solid white");
   });
+});
 
 function changeText(example) {
   var link = example.link;
