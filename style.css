@@ -240,14 +240,15 @@ button.headerbtn:hover {
   font-size: 1.4vw;
   font-family: 'Manrope', sans-serif;
   font-weight: bold;
+  color: white;
 }
 
 .ideoname {
   font-size: 0.7vw;
+  color: white;
 }
 
 .grid-label .ideoshort {
-  color: white;
   font-size: 1.4vw;
   display: inline;
   transition: font-size ease 0.1s;
