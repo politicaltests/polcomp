@@ -263,19 +263,19 @@ button.headerbtn:hover {
 }
 
 /* Colors */
-.centrism     { background-color: #C0C0C0; }
+.centrism     { background-color: #808080; }
 .marxlenin    { background-color: #ad6565; }
-.socialism    { background-color: #c9536a; }
+.socialism    { background-color: #DC143C; }
 .statecap     { background-color: #CD5C5C; }
-.fascism      { background-color: #2980b9; }
+.fascism      { background-color: #191970; }
 .monarchism   { background-color: #6A5ACD; }
 .conservatism { background-color: #4682B4; }
-.socdem       { background-color: #9ACD32; }
+.socdem       { background-color: #17a589; }
 .leftbert     { background-color: #6B8E23; }
-.leftanarchy  { background-color: #2E8B57; }
-.liberalism   { background-color: #ddd488; }
-.rightbert    { background-color: #FFD700; }
-.rightanarchy { background-color: #DAA520; }
+.leftanarchy  { background-color: #1d8348; }
+.liberalism   { background-color: #dba14b; }
+.rightbert    { background-color: #d4ac0d; }
+.rightanarchy { background-color: #B8860B; }
 
 /* Mobile */
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
