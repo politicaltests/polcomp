@@ -250,7 +250,7 @@ button.resetBtn:hover {
   width: 80%;
 }
 
-grid-scrollcont {
+.grid-scrollcont {
   overflow: scroll;
 }
 
