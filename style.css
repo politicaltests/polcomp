@@ -115,28 +115,6 @@ button.headerbtn:hover {
   transform: scale(1.05);
 }
 
-button.resetBtn {
-  border-radius: 10px;
-  border: none;
-  background-color: #2e86c1;
-  color: #FFF;
-  font-weight: bold;
-  font-family: 'Jost', sans-serif;
-  font-size: 14pt;
-  padding: 5px 10px 5px 10px;
-  margin-top: 10px;
-  transition: background-color 0.2s ease;
-}
-
-button.resetBtn .material-icons {
-  font-size: 14pt;
-  vertical-align: middle;
-}
-
-button.resetBtn:hover {
-  background-color: #5dade2;
-}
-
 .desc {
   color: #CCC;
   font-size: 22pt;
@@ -205,6 +183,30 @@ button.resetBtn:hover {
 div.column hr {
   color: #566573;
   width: 50%;
+  display: none;
+}
+
+button.resetBtn {
+  border-radius: 10px;
+  border: none;
+  background-color: #2e86c1;
+  color: #FFF;
+  font-weight: bold;
+  font-family: 'Jost', sans-serif;
+  font-size: 14pt;
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+  display: none;
+}
+
+button.resetBtn .material-icons {
+  font-size: 14pt;
+  vertical-align: middle;
+}
+
+button.resetBtn:hover {
+  background-color: #5dade2;
 }
 
 /* Categories */
