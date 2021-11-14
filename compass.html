@@ -234,13 +234,13 @@ $.fn.revertFill = function() {
  
 $(".resetBtn").click(function(){
   $.fn.revertFill();
-  $("#resethr").css("display", "none");
-  $("#resetbt").css("display", "none");
+  $("#resethr").animate({opacity: "0"}, 200);
+  $("#resetbt").animate({opacity: "0"}, 200);
 }); 
   
 $.fn.showReset = function() {
-  $("#resethr").css("display", "block");
-  $("#resetbt").css("display", "block");
+  $("#resethr").animate({opacity: "1"}, 200);
+  $("#resetbt").animate({opacity: "1"}, 200);
 }
   
 //Regular JS
