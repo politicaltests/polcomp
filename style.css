@@ -283,19 +283,19 @@ button.headerbtn:hover {
 .rightanarchy { background-color: #B8860B; }
 
 /* Hide other Categories */
-.catdiv.a ~ .grid-item:not(.centrism)     { background-color: #aaa;}
-.catdiv.b ~ .grid-item:not(.marxlenin)    { background-color: #aaa;}
-.catdiv.c ~ .grid-item:not(.socialism)    { background-color: #aaa;}
-.catdiv.d ~ .grid-item:not(.statecap)     { background-color: #aaa;}
-.catdiv.e ~ .grid-item:not(.fascism)      { background-color: #aaa;}
-.catdiv.f ~ .grid-item:not(.monarchism)   { background-color: #aaa;}
-.catdiv.g ~ .grid-item:not(.conservatism) { background-color: #aaa;}
-.catdiv.h ~ .grid-item:not(.socdem)       { background-color: #aaa;}
-.catdiv.i ~ .grid-item:not(.leftbert)     { background-color: #aaa;}
-.catdiv.j ~ .grid-item:not(.leftanarchy)  { background-color: #aaa;}
-.catdiv.k ~ .grid-item:not(.liberalism)   { background-color: #aaa;}
-.catdiv.l ~ .grid-item:not(.rightbert)    { background-color: #aaa;}
-.catdiv.m ~ .grid-item:not(.rightanarchy) { background-color: #aaa;}
+.catdiv.a:hover ~ .grid-item:not(.centrism)     { background-color: #aaa;}
+.catdiv.b:hover ~ .grid-item:not(.marxlenin)    { background-color: #aaa;}
+.catdiv.c:hover ~ .grid-item:not(.socialism)    { background-color: #aaa;}
+.catdiv.d:hover ~ .grid-item:not(.statecap)     { background-color: #aaa;}
+.catdiv.e:hover ~ .grid-item:not(.fascism)      { background-color: #aaa;}
+.catdiv.f:hover ~ .grid-item:not(.monarchism)   { background-color: #aaa;}
+.catdiv.g:hover ~ .grid-item:not(.conservatism) { background-color: #aaa;}
+.catdiv.h:hover ~ .grid-item:not(.socdem)       { background-color: #aaa;}
+.catdiv.i:hover ~ .grid-item:not(.leftbert)     { background-color: #aaa;}
+.catdiv.j:hover ~ .grid-item:not(.leftanarchy)  { background-color: #aaa;}
+.catdiv.k:hover ~ .grid-item:not(.liberalism)   { background-color: #aaa;}
+.catdiv.l:hover ~ .grid-item:not(.rightbert)    { background-color: #aaa;}
+.catdiv.m:hover ~ .grid-item:not(.rightanarchy) { background-color: #aaa;}
 
 .catdiv {
   transition: 0.2s;
