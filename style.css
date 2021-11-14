@@ -245,7 +245,7 @@ button.resetBtn:hover {
 /* Grid */
 .grid-outercont {
   background-color: #333;
-  padding: 20px 20px 20px 0px;
+  padding-top: 20px;
   border-radius: 20px;
   width: 80%;
 }
@@ -253,7 +253,7 @@ button.resetBtn:hover {
 .grid-scrollcont {
   overflow: scroll;
   height: 100%;
-  scrollbar-color: #333 white;
+  scrollbar-color: white #333;
 }
 
 .grid-container {
