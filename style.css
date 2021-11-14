@@ -283,19 +283,19 @@ button.headerbtn:hover {
 .rightanarchy { background-color: #B8860B; }
 
 /* Hide other Categories */
-.catdiv.a:hover ~ .grid-item:not(.centrism)     { background-color: #aaa;}
-.catdiv.b:hover ~ .grid-item:not(.marxlenin)    { background-color: #aaa;}
-.catdiv.c:hover ~ .grid-item:not(.socialism)    { background-color: #aaa;}
-.catdiv.d:hover ~ .grid-item:not(.statecap)     { background-color: #aaa;}
-.catdiv.e:hover ~ .grid-item:not(.fascism)      { background-color: #aaa;}
-.catdiv.f:hover ~ .grid-item:not(.monarchism)   { background-color: #aaa;}
-.catdiv.g:hover ~ .grid-item:not(.conservatism) { background-color: #aaa;}
-.catdiv.h:hover ~ .grid-item:not(.socdem)       { background-color: #aaa;}
-.catdiv.i:hover ~ .grid-item:not(.leftbert)     { background-color: #aaa;}
-.catdiv.j:hover ~ .grid-item:not(.leftanarchy)  { background-color: #aaa;}
-.catdiv.k:hover ~ .grid-item:not(.liberalism)   { background-color: #aaa;}
-.catdiv.l:hover ~ .grid-item:not(.rightbert)    { background-color: #aaa;}
-.catdiv.m:hover ~ .grid-item:not(.rightanarchy) { background-color: #aaa;}
+.categories .catdiv.a:hover ~ .grid-container .grid-item:not(.centrism)     { background-color: #aaa;}
+.categories .catdiv.b:hover ~ .grid-container .grid-item:not(.marxlenin)    { background-color: #aaa;}
+.categories .catdiv.c:hover ~ .grid-container .grid-item:not(.socialism)    { background-color: #aaa;}
+.categories .catdiv.d:hover ~ .grid-container .grid-item:not(.statecap)     { background-color: #aaa;}
+.categories .catdiv.e:hover ~ .grid-container .grid-item:not(.fascism)      { background-color: #aaa;}
+.categories .catdiv.f:hover ~ .grid-container .grid-item:not(.monarchism)   { background-color: #aaa;}
+.categories .catdiv.g:hover ~ .grid-container .grid-item:not(.conservatism) { background-color: #aaa;}
+.categories .catdiv.h:hover ~ .grid-container .grid-item:not(.socdem)       { background-color: #aaa;}
+.categories .catdiv.i:hover ~ .grid-container .grid-item:not(.leftbert)     { background-color: #aaa;}
+.categories .catdiv.j:hover ~ .grid-container .grid-item:not(.leftanarchy)  { background-color: #aaa;}
+.categories .catdiv.k:hover ~ .grid-container .grid-item:not(.liberalism)   { background-color: #aaa;}
+.categories .catdiv.l:hover ~ .grid-container .grid-item:not(.rightbert)    { background-color: #aaa;}
+.categories .catdiv.m:hover ~ .grid-container .grid-item:not(.rightanarchy) { background-color: #aaa;}
 
 .catdiv {
   transition: 0.2s;
