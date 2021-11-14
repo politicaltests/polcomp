@@ -126,7 +126,7 @@ Bootstrap Icons
 //JQuery
 $(document).ready(function(){
   $(".grid-item").click(function(){
-    $(".grid-item").css("border", "none");
+    $(".grid-item").css("border", "2px solid transparent");
     $(this).css("border", "2px solid white");
   });
 });
@@ -211,6 +211,7 @@ $.fn.revertFill = function() {
   $(".liberalism").css("background-color", "#dba14b");
   $(".rightbert").css("background-color", "#d4ac0d");
   $(".rightanarchy").css("background-color", "#B8860B");
+  $(".grid-item").css("border", "2px solid transparent");
 }
  
 $(".resetBtn").click(function(){
@@ -241,7 +242,6 @@ function reset() {
   document.getElementById("economics").innerHTML = "-";
   document.getElementById("culture").innerHTML = "-";
   document.getElementById("diplomacy").innerHTML = "-";
-  document.getElementsByClassName.("grid-item").style.border = "none";
 }
   
 </script>
