@@ -119,7 +119,7 @@ Bootstrap Icons
 
 <script type="application/javascript" src="ideologies.js"></script>
 <script>
-  
+//JQuery
 $(document).ready(function(){
   $(".grid-item").click(function(){
     $(".grid-item").css("border", "2px solid transparent");
@@ -127,8 +127,17 @@ $(document).ready(function(){
   });
 });
   
-$(document).ready(function(){
-$(".catdiv").click(function(){
+$(".catdiv.a").click(function(){
+  $.fn.revertFill();
+  $(".grid-item:not(.centrism)").css("background-color", "#aaa");
+}); 
+  
+$(".catdiv.b").click(function(){
+  $.fn.revertFill();
+  $(".grid-item:not(.marxlenin)").css("background-color", "#aaa");
+}); 
+    
+$.fn.revertFill = function() {
   $(".centrism").css("background-color", "#808080");
   $(".marxlenin").css("background-color", "#A52A2A");
   $(".socialism").css("background-color", "#DC143C");
@@ -142,10 +151,9 @@ $(".catdiv").click(function(){
   $(".liberalism").css("background-color", "#dba14b");
   $(".rightbert").css("background-color", "#d4ac0d");
   $(".rightanarchy").css("background-color", "#B8860B");
-  $(".grid-item").not(this).css("background-color", "#aaa");
-}); 
-});
-
+}
+ 
+//Regular JS
 function changeText(example) {
   var link = example.link;
   document.getElementById("link").href = link;
