@@ -283,19 +283,19 @@ button.headerbtn:hover {
 .rightanarchy { background-color: #B8860B; }
 
 /* Hide other Categories */
-.catcontainer .centrism:hover     ~ .grid-item:not(.centrism)     { background-color: #aaa;}
-.catcontainer .marxlenin:hover    ~ .grid-item:not(.marxlenin)    { background-color: #aaa;}
-.catcontainer .socialism:hover    ~ .grid-item:not(.socialism)    { background-color: #aaa;}
-.catcontainer .statecap:hover     ~ .grid-item:not(.statecap)     { background-color: #aaa;}
-.catcontainer .fascism:hover      ~ .grid-item:not(.fascism)      { background-color: #aaa;}
-.catcontainer .monarchism:hover   ~ .grid-item:not(.monarchism)   { background-color: #aaa;}
-.catcontainer .conservatism:hover ~ .grid-item:not(.conservatism) { background-color: #aaa;}
-.catcontainer .socdem:hover       ~ .grid-item:not(.socdem)       { background-color: #aaa;}
-.catcontainer .leftbert:hover     ~ .grid-item:not(.leftbert)     { background-color: #aaa;}
-.catcontainer .leftanarchy:hover  ~ .grid-item:not(.leftanarchy)  { background-color: #aaa;}
-.catcontainer .liberalism:hover   ~ .grid-item:not(.liberalism)   { background-color: #aaa;}
-.catcontainer .rightbert:hover    ~ .grid-item:not(.rightbert)    { background-color: #aaa;}
-.catcontainer .rightanarchy:hover ~ .grid-item:not(.rightanarchy) { background-color: #aaa;}
+.catdiv.a ~ .grid-item:not(.a) { background-color: #aaa;}
+.catdiv.b ~ .grid-item:not(.b) { background-color: #aaa;}
+.catdiv.c ~ .grid-item:not(.c) { background-color: #aaa;}
+.catdiv.d ~ .grid-item:not(.d) { background-color: #aaa;}
+.catdiv.e ~ .grid-item:not(.e) { background-color: #aaa;}
+.catdiv.f ~ .grid-item:not(.f) { background-color: #aaa;}
+.catdiv.g ~ .grid-item:not(.g) { background-color: #aaa;}
+.catdiv.h ~ .grid-item:not(.h) { background-color: #aaa;}
+.catdiv.i ~ .grid-item:not(.i) { background-color: #aaa;}
+.catdiv.j ~ .grid-item:not(.j) { background-color: #aaa;}
+.catdiv.k ~ .grid-item:not(.k) { background-color: #aaa;}
+.catdiv.l ~ .grid-item:not(.l) { background-color: #aaa;}
+.catdiv.m ~ .grid-item:not(.m) { background-color: #aaa;}
 
 .catcontainer:hover {
   transform: scale(1.1);
