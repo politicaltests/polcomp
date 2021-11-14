@@ -297,14 +297,13 @@ button.headerbtn:hover {
 .catdiv.l ~ .grid-item:not(.rightbert)    { background-color: #aaa;}
 .catdiv.m ~ .grid-item:not(.rightanarchy) { background-color: #aaa;}
 
-.catdiv:hover {
-  transform: scale(0.9);
-}
-
-.catcontainer {
+.catdiv {
   transition: 0.2s;
 }
 
+.catdiv:hover {
+  transform: scale(0.9);
+}
 /* Mobile */
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
   h1          { font-size: 60pt; }
