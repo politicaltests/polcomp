@@ -222,7 +222,7 @@ function changeText(example) {
   document.getElementById("diplomacy").innerHTML = example.dipl;  
 }
   
-function reset() {
+document.getElementById("maindiv").onclick = function reset() {
   document.getElementById("link").href = "";
   document.getElementById("group").innerHTML = "";
   document.getElementById("name").innerHTML = "";
