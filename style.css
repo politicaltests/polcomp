@@ -116,16 +116,16 @@ button.headerbtn:hover {
 }
 
 button.resetBtn {
-  border-radius: 15px;
-  border: 2px solid #FFF;
+  border-radius: 10px;
+  border: none;
   background-color: #2e86c1;
   color: #FFF;
   font-weight: bold;
   font-family: 'Jost', sans-serif;
   font-size: 14pt;
-  padding: 7px;
-  margin-top: 5px;
-  transition: transform .2s;
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
 }
 
 button.resetBtn .material-icons {
@@ -168,7 +168,7 @@ button.resetBtn:hover {
   border-radius: 10px;
   color: white;
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 10px;
   vertical-align: middle;
   font-size: 14pt;
 }
@@ -200,6 +200,11 @@ button.resetBtn:hover {
 
 .column p a, .column1 p a {
   color: #42a5f5;
+}
+
+div.column hr {
+  color: #566573;
+  width: 50%;
 }
 
 /* Categories */
