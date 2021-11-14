@@ -133,8 +133,7 @@ Bootstrap Icons
 $(".grid-item").click(function(){
   $(".grid-item").css("border", "2px solid transparent");
   $(this).css("border", "2px solid white");
-  $("#resethr").css("display", "block");
-  $("#resetbt").css("display", "block");
+  $.fn.showReset();
 });
   
 $(".catdiv.a").click(function(){
@@ -239,7 +238,7 @@ $(".resetBtn").click(function(){
   $("#resetbt").css("display", "none");
 }); 
   
-$.fn.hideReset = function() {
+$.fn.showReset = function() {
   $("#resethr").css("display", "block");
   $("#resetbt").css("display", "block");
 }
