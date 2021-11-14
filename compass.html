@@ -121,7 +121,7 @@ Bootstrap Icons
     <p><b>Economics:</b> <span id="economics">-</span></p>
     <p><b>Culture:</b> <span id="culture">-</span></p>
     <p><b>Diplomacy:</b> <span id="diplomacy">-</span></p>
-    <hr align="left"><button class="resetBtn" onclick="reset()"><span class="material-icons">south_west</span> Back</button>
+    <hr align="left" id="resethr"><button class="resetBtn" onclick="reset()" id="resetbt"><span class="material-icons">south_west</span> Back</button>
   </div>
   
 </div>
@@ -130,75 +130,88 @@ Bootstrap Icons
 <script type="application/javascript" src="ideologies.js"></script>
 <script>
 //JQuery
-$(document).ready(function(){
-  $(".grid-item").click(function(){
-    $(".grid-item").css("border", "2px solid transparent");
-    $(this).css("border", "2px solid white");
-  });
+$(".grid-item").click(function(){
+  $(".grid-item").css("border", "2px solid transparent");
+  $(this).css("border", "2px solid white");
+  $("#resethr").css("display", "block");
+  $("#resetbt").css("display", "block");
 });
   
 $(".catdiv.a").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.centrism)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.b").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.marxlenin)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.c").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.socialism)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.d").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.statecap)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.e").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.fascism)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.f").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.monarchism)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.g").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.conservatism)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.h").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.socdem)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.i").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.leftbert)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.j").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.leftanarchy)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.k").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.liberalism)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.l").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.rightbert)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.m").click(function(){
   $.fn.revertFill();
+  $.fn.showReset();
   $(".grid-item:not(.rightanarchy)").css("background-color", "#aaa");
 }); 
     
@@ -222,7 +235,14 @@ $.fn.revertFill = function() {
  
 $(".resetBtn").click(function(){
   $.fn.revertFill();
+  $("#resethr").css("display", "none");
+  $("#resetbt").css("display", "none");
 }); 
+  
+$.fn.hideReset = function() {
+  $("#resethr").css("display", "block");
+  $("#resetbt").css("display", "block");
+}
   
 //Regular JS
 function changeText(example) {
