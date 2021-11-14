@@ -27,7 +27,7 @@
 Bootstrap Icons
 <div class="maindiv" onclick="">
   
-<input id="my-range" type="range" step="0.25" min="0.25" max="4" />
+<input id="my-range" type="range" step="0.25" min="0.25" max="4" onchange="zoom('grid-container',this.value)">
   
 <div class="categories">
   <div class="catgroup">
@@ -245,10 +245,6 @@ $.fn.showReset = function() {
   $("#resetbt").css("display", "block");
 }
   
-$("#my-range").on("change", function() {
-    $("#grid-container").css({"zoom": $(this).val() });
-});
-  
 //Regular JS
 function changeText(example) {
   var link = example.link;
@@ -273,6 +269,10 @@ function reset() {
   document.getElementById("economics").innerHTML = "-";
   document.getElementById("culture").innerHTML = "-";
   document.getElementById("diplomacy").innerHTML = "-";
+}
+  
+function zoom(_target,_scale) {
+  document.getElementById(_target).style.transform = "scale("+_scale+")";
 }
   
 </script>
