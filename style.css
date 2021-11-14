@@ -129,7 +129,7 @@ button.resetBtn {
   transition: transform .2s;
 }
 
-button.headerbtn:hover {
+button.resetBtn:hover {
   background-color: #5dade2;
 }
 
