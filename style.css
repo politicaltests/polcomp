@@ -245,7 +245,7 @@ button.resetBtn:hover {
 /* Grid */
 .grid-outercont {
   background-color: #333;
-  padding-top: 20px;
+  padding: 20px;
   border-radius: 20px;
   width: 80%;
 }
