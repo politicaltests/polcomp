@@ -248,6 +248,9 @@ button.resetBtn:hover {
   padding: 20px 20px 20px 0px;
   border-radius: 20px;
   width: 80%;
+}
+
+grid-scrollcont {
   overflow: scroll;
 }
 
@@ -333,6 +336,7 @@ button.resetBtn:hover {
   background-color: #333;
   padding: 10px;
   border-radius: 20px;
+  margin: 0px 30x 0px 30px;
 }
 
 input#zoomRange {
