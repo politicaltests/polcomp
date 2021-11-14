@@ -26,7 +26,11 @@
 <body>
 Bootstrap Icons
   
-<input id="zoomRange" type="range" step="0.25" min="0.25" max="4" onchange="zoom('grid-container',this.value)">
+<div class="zoomdiv">
+  <p class="zoomtext">x0.25</p>
+  <input id="zoomRange" type="range" step="0.25" min="0.25" max="4" onchange="zoom('grid-innercont',this.value)">
+  <p class="zoomtext">x0.25</p>
+</div>
 
 <div class="maindiv">  
   
@@ -53,9 +57,10 @@ Bootstrap Icons
 </div>
     
 <div class="grid-container" id="grid-container">
-  <div class="grid-label"></div>
+<div class="grid-innercont">
   
   <!-- Row 1. Each row has 13 elements. -->
+  <div class="grid-label"></div>
   <div class="grid-label"> <p class="ideoshort">A</p></div>
   <div class="grid-label"> <p class="ideoshort">B</p></div>
   <div class="grid-label"> <p class="ideoshort">C</p></div>
@@ -102,8 +107,8 @@ Bootstrap Icons
   <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
   <div class="grid-item" onclick="changeText(example)"><p class="ideoshort">1</p><p class="ideoname">one</p></div>
 
-</div>
-  
+</div>  <!-- Inner Grid Container -->
+</div>  <!-- Grid Container -->
 </div>  <!-- Main Div -->
   
 <div class="bottombar">
