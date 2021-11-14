@@ -263,6 +263,7 @@ button.headerbtn:hover {
 
 .grid-item:hover {
   transform: scale(1.1);
+  outline: 2px solid white;
   box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.8);
 }
 
