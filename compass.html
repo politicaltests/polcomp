@@ -148,64 +148,64 @@ $(".catdiv.d").click(function(){
 }); 
   
 $(".catdiv.e").click(function(){
-  revertFill();
+  $.fn.revertFill();
   $(".grid-item:not(.fascism)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.f").click(function(){
-  revertFill();
+  $.fn.revertFill();
   $(".grid-item:not(.monarchism)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.g").click(function(){
-  revertFill();
+  $.fn.revertFill();
   $(".grid-item:not(.conservatism)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.h").click(function(){
-  revertFill();
+  $.fn.revertFill();
   $(".grid-item:not(.socdem)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.i").click(function(){
-  revertFill();
+  $.fn.revertFill();
   $(".grid-item:not(.leftbert)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.j").click(function(){
-  revertFill();
+  $.fn.revertFill();
   $(".grid-item:not(.leftanarchy)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.k").click(function(){
-  revertFill();
+  $.fn.revertFill();
   $(".grid-item:not(.liberalism)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.l").click(function(){
-  revertFill();
+  $.fn.revertFill();
   $(".grid-item:not(.rightbert)").css("background-color", "#aaa");
 }); 
   
 $(".catdiv.m").click(function(){
-  revertFill();
+  $.fn.revertFill();
   $(".grid-item:not(.rightanarchy)").css("background-color", "#aaa");
 }); 
     
-function revertFill() {
-  document.getElementsByClassName("centrism").style.backgroundColor = "#808080";
-  document.getElementsByClassName("marxlenin").style.backgroundColor = "#A52A2A";
-  document.getElementsByClassName("socialism").style.backgroundColor = "#DC143C";
-  document.getElementsByClassName("statecap").style.backgroundColor = "#CD5C5C";
-  document.getElementsByClassName("fascism").style.backgroundColor = "#191970";
-  document.getElementsByClassName("monarchism").style.backgroundColor = "#6A5ACD";
-  document.getElementsByClassName("conservatism").style.backgroundColor = "#4682B4";
-  document.getElementsByClassName("socdem").style.backgroundColor = "#17a589";
-  document.getElementsByClassName("leftbert").style.backgroundColor = "#6B8E23";
-  document.getElementsByClassName("leftanarchy").style.backgroundColor = "#1d8348";
-  document.getElementsByClassName("liberalism").style.backgroundColor = "#dba14b";
-  document.getElementsByClassName("rightbert").style.backgroundColor = "#d4ac0d";
-  document.getElementsByClassName("rightanarchy").style.backgroundColor = "#B8860B";
+$.fn.revertFill = function() {
+  $(".centrism").css("background-color", "#808080");
+  $(".marxlenin").css("background-color", "#A52A2A");
+  $(".socialism").css("background-color", "#DC143C");
+  $(".statecap").css("background-color", "#CD5C5C");
+  $(".fascism").css("background-color", "#191970");
+  $(".monarchism").css("background-color", "#6A5ACD");
+  $(".conservatism").css("background-color", "#4682B4");
+  $(".socdem").css("background-color", "#17a589");
+  $(".leftbert").css("background-color", "#6B8E23");
+  $(".leftanarchy").css("background-color", "#1d8348");
+  $(".liberalism").css("background-color", "#dba14b");
+  $(".rightbert").css("background-color", "#d4ac0d");
+  $(".rightanarchy").css("background-color", "#B8860B");
 }
  
 //Regular JS
