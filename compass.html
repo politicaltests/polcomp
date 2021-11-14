@@ -126,7 +126,7 @@ Bootstrap Icons
 //JQuery
 $(document).ready(function(){
   $(".grid-item").click(function(){
-    $(".grid-item").css("border", "2px solid transparent");
+    $(".grid-item").css("border", "none");
     $(this).css("border", "2px solid white");
   });
 });
@@ -241,6 +241,7 @@ function reset() {
   document.getElementById("economics").innerHTML = "-";
   document.getElementById("culture").innerHTML = "-";
   document.getElementById("diplomacy").innerHTML = "-";
+  document.getElementsByClassName.("grid-item").style.border = "none";
 }
   
 </script>
