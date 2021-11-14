@@ -115,6 +115,7 @@ Bootstrap Icons
     <p><b>Economics:</b> <span id="economics">-</span></p>
     <p><b>Culture:</b> <span id="culture">-</span></p>
     <p><b>Diplomacy:</b> <span id="diplomacy">-</span></p>
+    <button class="resetBtn" onclick="reset()"><span class="material-icons">south_west</span> Back</button>
   </div>
   
 </div>
@@ -211,6 +212,10 @@ $.fn.revertFill = function() {
   $(".rightanarchy").css("background-color", "#B8860B");
 }
  
+$(".resetBtn").click(function(){
+  $.fn.revertFill();
+}); 
+  
 //Regular JS
 function changeText(example) {
   var link = example.link;
@@ -225,7 +230,7 @@ function changeText(example) {
   document.getElementById("diplomacy").innerHTML = example.dipl;  
 }
   
-document.getElementById("maindiv").onclick = function reset() {
+function reset() {
   document.getElementById("link").href = "";
   document.getElementById("group").innerHTML = "";
   document.getElementById("name").innerHTML = "";
