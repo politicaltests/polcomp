@@ -238,6 +238,10 @@ button.resetBtn:hover {
   display: inline-block;
 }
 
+.catdiv {
+  transition: 0.2s;
+}
+
 /* Grid */
 .grid-container {
   display: grid;
