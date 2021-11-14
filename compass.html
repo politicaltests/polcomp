@@ -27,6 +27,8 @@
 Bootstrap Icons
 <div class="maindiv" onclick="">
   
+<input id="my-range" type="range" step="0.25" min="0.25" max="4" />
+  
 <div class="categories">
   <div class="catgroup">
     <div class="catdiv a"><div class="caticon centrism"></div><p>Centrism</p></div>
@@ -242,6 +244,10 @@ $.fn.showReset = function() {
   $("#resethr").css("display", "block");
   $("#resetbt").css("display", "block");
 }
+  
+$("#my-range").on("change", function() {
+    $("#grid-container").css({"zoom": $(this).val() });
+});
   
 //Regular JS
 function changeText(example) {
