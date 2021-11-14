@@ -252,6 +252,8 @@ button.resetBtn:hover {
 
 .grid-scrollcont {
   overflow: scroll;
+  height: 100%;
+  scrollbar-color: #333 white;
 }
 
 .grid-container {
