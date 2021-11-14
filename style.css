@@ -297,8 +297,8 @@ button.headerbtn:hover {
 .catdiv.l ~ .grid-item:not(.l) { background-color: #aaa;}
 .catdiv.m ~ .grid-item:not(.m) { background-color: #aaa;}
 
-.catcontainer:hover {
-  transform: scale(1.1);
+.catdiv:hover {
+  transform: scale(0.9);
 }
 
 .catcontainer {
