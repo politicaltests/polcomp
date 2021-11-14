@@ -120,20 +120,29 @@ Bootstrap Icons
 <script type="application/javascript" src="ideologies.js"></script>
 <script>
   
-/* $(document).ready(function(){
-  $(".grid-item").hover(function(){
-    $(this).css("border", "2px solid white");
-    }, function(){
-    $(this).css("border", "2px solid transparent");
-  });
-}); */
-  
 $(document).ready(function(){
   $(".grid-item").click(function(){
     $(".grid-item").css("border", "2px solid transparent");
     $(this).css("border", "2px solid white");
   });
 });
+  
+$(".catdiv").click(function(){
+  $(".a").css("background-color", "#808080");
+  $(".b").css("background-color", "#A52A2A");
+  $(".c").css("background-color", "#DC143C");
+  $(".d").css("background-color", "#CD5C5C");
+  $(".e").css("background-color", "#191970");
+  $(".f").css("background-color", "#6A5ACD");
+  $(".g").css("background-color", "#4682B4");
+  $(".h").css("background-color", "#17a589");
+  $(".i").css("background-color", "#6B8E23");
+  $(".j").css("background-color", "#1d8348");
+  $(".k").css("background-color", "#dba14b");
+  $(".l").css("background-color", "#d4ac0d");
+  $(".m").css("background-color", "#B8860B");
+  $(".grid-item").not(this).css("background-color", "#aaa");
+}); 
 
 function changeText(example) {
   var link = example.link;
@@ -145,17 +154,8 @@ function changeText(example) {
   document.getElementById("government").innerHTML = example.govt;
   document.getElementById("economics").innerHTML = example.econ;
   document.getElementById("culture").innerHTML = example.cult;
-  document.getElementById("diplomacy").innerHTML = example.dipl;
-  
-  // clearBorders(example);
+  document.getElementById("diplomacy").innerHTML = example.dipl;  
 }
-  
-/* function clearBorders(example) {
-  var all = document.getElementsByClassName("grid-item");
-    for (var i = 0; i < all.length; i++) {
-      all[i].style.border = "2px solid transparent";
-  };  
-} */
   
 function reset() {
   document.getElementById("link").href = "";
