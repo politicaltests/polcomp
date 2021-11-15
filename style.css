@@ -353,6 +353,7 @@ p.zoomtext {
   font-family: 'Manrope', sans-serif;
   font-weight: bold;
   color: white;
+  margin: 0;
 }
 
 /* Mobile */
