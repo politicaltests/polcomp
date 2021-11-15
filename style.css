@@ -334,7 +334,7 @@ button.resetBtn:hover {
 /* Zoom */
 .zoomdiv {
   display: flex;
-  gap: 10px;
+  gap: calc(1/48 * 100%);
   background-color: #333;
   padding: 15px 30px 15px 30px;
   border-radius: 20px;
@@ -348,7 +348,7 @@ input#zoomRange {
 }
 
 p.zoomtext {
-  width: calc(100/7 * 100%);
+  width: calc(1/8 * 100%);
   text-align: center;
   font-family: 'Manrope', sans-serif;
   font-weight: bold;
