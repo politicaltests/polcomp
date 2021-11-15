@@ -242,6 +242,12 @@ button.resetBtn:hover {
   transition: 0.2s;
 }
 
+.catimg {
+  width: 100%;
+  border: 2px solid darkgray;
+  border-radius: 15px;
+}
+
 /* Grid */
 .grid-outercont {
   background-color: #333;
