@@ -369,5 +369,7 @@ p.zoomtext {
   .bottombar  { flex-wrap: wrap; }
   .column1    { width: 100%; }
   .column     { width: 50%; }
-  .categories { display: flex; }
+  .maindiv    { flex-wrap: wrap; }
+  .categories { display: flex; width: 100%; }
+  .grid-outercont { width: 100%; }
 }
