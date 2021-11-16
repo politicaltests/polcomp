@@ -48,6 +48,7 @@ Bootstrap Icons
     <div class="catdiv d"><div class="caticon statecap"></div><p>State Capitalism</p></div>
     <div class="catdiv e"><div class="caticon fascism"></div><p>Fascism</p></div>
     <div class="catdiv f"><div class="caticon monarchism"></div><p>Monarchism</p></div>
+    <div class="catdiv n"><div class="caticon authcap"></div><p>Authoritarian Capitalism</p></div>
     <div class="catdiv g"><div class="caticon conservatism"></div><p>Conservatism</p></div>
   </div>
   <div class="catgroup">
@@ -226,6 +227,12 @@ $(".catdiv.m").click(function(){
   $.fn.revertFill();
   $.fn.showReset();
   $(".grid-item:not(.rightanarchy)").css("background-color", "#aaa");
+}); 
+  
+$(".catdiv.n").click(function(){
+  $.fn.revertFill();
+  $.fn.showReset();
+  $(".grid-item:not(.authcap)").css("background-color", "#aaa");
 }); 
     
 $.fn.revertFill = function() {
