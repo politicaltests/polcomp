@@ -299,15 +299,9 @@ button.resetBtn:hover {
   font-size: 0.7vw;
   color: #e5e8e8;
   font-weight: bold;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  
-  /* Overflow Word */
+  font-family: 'Barlow Semi Condensed', sans-serif;  
   overflow-wrap: break-word;
   word-wrap: break-word;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
 }
 
 .grid-label .ideoshort {
