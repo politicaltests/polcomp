@@ -59,7 +59,6 @@ h2 {
   width: 30%;
   margin-right: 10px;
   vertical-align: middle;
-  padding-top: 100%;
 }
 
 p {
@@ -277,7 +276,7 @@ button.resetBtn:hover {
 }
 
 .vertical-label {
-  padding-top: 60%;
+  padding-top: 100%;
 }
 
 .grid-item {
