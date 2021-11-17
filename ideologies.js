@@ -3,6 +3,77 @@ example = { group: "Communism<span class='material-icons'>chevron_right</span>Na
 desc: "Libertarianism, or more specifically Right-Libertarianism, is a political philosophy and movement that upholds liberty as a core principle. Libertarians seek to maximize autonomy and political freedom, emphasizing free association, freedom of choice, individualism and voluntary association. ", 
 thby: "test", branches: "example1, example2, example3", govt: "some view", econ: "some view", cult: "some view", dipl: "some view" };
 
+//Categories
+centrism = { group: "Category", 
+name: "Centrism", link: "https://en.wikipedia.org/wiki/Centrism", 
+desc: "Centrism is a political outlook or position that involves acceptance and/or support of a balance of social equality and a degree of social hierarchy, while opposing political changes which would result in a significant shift of society strongly to either the left or the right.", 
+thby: "-", branches: "Moderatism, Radical Centrism, etc.", govt: "Relative to location", econ: "Mixed Economic", cult: "Moderate", dipl: "Moderate" };
+
+marxlenin = { group: "Category", 
+name: "Marxism-Leninism", link: "https://en.wikipedia.org/wiki/Marxism%E2%80%93Leninism", 
+desc: "Marxism–Leninism is a communist ideology and was the main communist movement throughout the 20th century. Generally, Marxist–Leninists support proletarian internationalism and socialist democracy, and oppose anarchism, fascism, imperialism, and liberal democracy.", 
+thby: "Multiple, incl. Karl Marx", branches: "Anti-Revisionism, Revisionism", govt: "Authoritarian", econ: "Communist", cult: "Varies", dipl: "Varies" };
+
+socialism = { group: "Category", 
+name: "Non-Marxist Socialism", link: "https://en.wikipedia.org/wiki/Socialism", 
+desc: "This category refers to a range of economic and social systems characterised by social ownership of the means of production, that are not associated with the ideas of Karl Marx.", 
+thby: "-", branches: "-", govt: "Varies", econ: "Socialist", cult: "Varies", dipl: "Varies" };
+
+statecap = { group: "Category", 
+name: "State Capitalism", link: "https://en.wikipedia.org/wiki/State_capitalism", 
+desc: "State capitalism is an economic system in which the state undertakes business and commercial (i.e. for-profit) economic activity and where the means of production are nationalized as state-owned enterprises.", 
+thby: "-", branches: "-", govt: "Varies", econ: "State Capitalist", cult: "Varies", dipl: "Varies" };
+
+fascism = { group: "Category", 
+name: "Fascism", link: "https://en.wikipedia.org/wiki/Fascism", 
+desc: "Fascism is a form of authoritarian ultranationalism characterized by dictatorial power, forcible suppression of opposition, and strong regimentation of society and of the economy, which came to prominence in early 20th-century Europe.", 
+thby: "-", branches: "-", govt: "Authoritarian", econ: "Fascist, Corporatist", cult: "Usually Reactionary", dipl: "Ultranationalist" };
+
+monarchism = { group: "Category", 
+name: "Monarchism", link: "https://en.wikipedia.org/wiki/Monarchism", 
+desc: "Monarchism is a form of government in which a person, the monarch, is head of state for life or until abdication. The political legitimacy and authority of the monarch may vary from restricted and largely symbolic (constitutional monarchy), to fully autocratic (absolute monarchy).", 
+thby: "-", branches: "Absolute, Semi-Constitutional, Constitutional", govt: "Varies", econ: "Varies", cult: "Neutral", dipl: "Varies" };
+
+authcap = { group: "Category", 
+name: "Authoritarian Capitalism", link: "https://en.wikipedia.org/wiki/Authoritarian_capitalism", 
+desc: "Authoritarian Capitalism is a system in which a capitalist market economy exists alongside an authoritarian government. It combines private property and the functioning of market forces with repression of dissent, restrictions on freedom of speech and either a lack of elections or an electoral system with a single dominant political party.", 
+thby: "-", branches: "-", govt: "Authoritarian", econ: "Capitalist", cult: "Varies", dipl: "Varies" };
+
+conservatism = { group: "Category", 
+name: "Conservatism", link: "https://en.wikipedia.org/wiki/Monarchism", 
+desc: "Conservatism is an aesthetic, cultural, social, and political philosophy, which seeks to promote and to preserve traditional social institutions. The central tenets of conservatism may vary in relation to the traditional values or practices of the culture and civilization in which it appears.", 
+thby: "-", branches: "-", govt: "Relative to location", econ: "Generally Right-Wing", cult: "Traditionalist", dipl: "Varies" };
+
+socdem = { group: "Category", 
+name: "Social Democracy", link: "https://en.wikipedia.org/wiki/Social_democracy", 
+desc: "Social democracy is a political, social, and economic philosophy within socialism that supports political and economic democracy. As a policy regime, it is described by academics as advocating economic and social interventions to promote social justice within the framework of a liberal-democratic polity and a capitalist-oriented mixed economy.", 
+thby: "-", branches: "-", govt: "Democratic", econ: "Social Democratic", cult: "Usually Progressive", dipl: "Varies" };
+
+leftbert = { group: "Category", 
+name: "Left-Libertarianism", link: "https://en.wikipedia.org/wiki/Left-libertarianism", 
+desc: "Left-Libertarianism is a political philosophy and type of libertarianism that stresses both individual freedom and social equality. Left-libertarianism represents several related yet distinct approaches to political and social theory.", 
+thby: "-", branches: "-", govt: "Libertarian", econ: "Socialist", cult: "Neutral", dipl: "Varies" };
+
+leftanarchy = { group: "Category", 
+name: "Left-Libertarianism", link: "https://en.wikipedia.org/wiki/Left-libertarianism", 
+desc: "Left anarchism or left-wing anarchism deals with left-wing forms of anarchism. It wants a future society that replaces private property with reciprocity. The term left anarchism is sometimes used with the same meaning as libertarian socialism, left libertarianism, or socialist anarchism.", 
+thby: "-", branches: "Collectivist, Individualist", govt: "Anarchist", econ: "Socialist/Communist", cult: "Neutral", dipl: "Neutral" };
+
+liberalism = { group: "Category", 
+name: "Liberalism", link: "https://en.wikipedia.org/wiki/Liberalism", 
+desc: "Liberalism is a political and moral philosophy based on liberty, consent of the governed and equality before the law. They generally support individual rights, democracy, secularism, freedom of speech, freedom of the press, freedom of religion and a market economy.", 
+thby: "-", branches: "-", govt: "Liberal", econ: "Free-Market Capitalist", cult: "Neutral", dipl: "Neutral" };
+
+rightbert = { group: "Category", 
+name: "Right-Libertarianism", link: "https://en.wikipedia.org/wiki/Right-libertarianism", 
+desc: "Right-Libertarianism is a political philosophy and type of libertarianism that supports capitalist property rights and defends market distribution of natural resources and private property. It seeks to maximize autonomy and political freedom, emphasizing free association, freedom of choice, individualism and voluntary association.", 
+thby: "-", branches: "-", govt: "Libertarian", econ: "Capitalist, Austrian School", cult: "Neutral", dipl: "Non-Interventionist" };
+
+rightanarchy = { group: "Category", 
+name: "Right-Libertarianism", link: "https://en.wikipedia.org/wiki/Anarcho-capitalism", 
+desc: "Right-Anarchism refers to a set of ideologies that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.", 
+thby: "-", branches: "-", govt: "Libertarian", econ: "Capitalist", cult: "Neutral", dipl: "Neutral" };
+
 //Marxism-Leninism
 polpotism = { group: "Marxism<span class='material-icons'>chevron_right</span>Marxism-Leninism", 
 name: "Pol Potism", link: "https://en.wikipedia.org/wiki/Pol_Pot#Political_ideology", 
