@@ -300,10 +300,13 @@ button.resetBtn:hover {
   color: #e5e8e8;
   font-weight: bold;
   font-family: 'Cabin Condensed', sans-serif;
+  
+  /* Overflow Word */
   overflow-wrap: break-word;
+  word-wrap: break-word;
   -webkit-hyphens: auto;
-  -moz-hyphens: auto;
   -ms-hyphens: auto;
+  -moz-hyphens: auto;
   hyphens: auto;
 }
 
