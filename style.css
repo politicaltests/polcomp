@@ -21,6 +21,11 @@ body#bodydiv {
   border-style: none;
 }
 
+#compassbody {
+  width: 86%;
+  background-color: #222;
+}
+
 .maindiv {
   padding: 30px;
   display: flex;
@@ -136,7 +141,7 @@ button.headerbtn:hover {
   bottom: 0;
   box-sizing: border-box;
   display: flex;
-  box-shadow: 0 -15px 20px 0px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 -15px 20px -10px rgba(255, 255, 255, 0.1);
   transition: 0.5s;
 }
 
