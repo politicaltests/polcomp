@@ -384,11 +384,17 @@ p.zoomtext {
   background-color: #333;
   border-radius: 20px;
   margin: 0;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
+  width: 15%;
 }  
 
 #homepgBtn .material-icons {
-  font-size: 1.2vw;
+  font-size: 1.3vw;
+  vertical-align: middle;
+}
+
+#homepgtext {
+  vertical-align: middle;
 }
 
 /* Mobile */
