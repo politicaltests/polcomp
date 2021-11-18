@@ -377,13 +377,19 @@ p.zoomtext {
   font-weight: bold;
   color: white;
   margin: 0;
+  font-size: 1.2vw;
 }
 
 #homepgBtn {
-  width: 20%;
   background-color: #333;
   border-radius: 20px;
+  margin: 0;
+  font-size: 1.2vw;
 }  
+
+#homepgBtn .material-icons {
+  font-size: 1.2vw;
+}
 
 /* Mobile */
 @media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
