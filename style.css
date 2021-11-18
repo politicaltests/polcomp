@@ -245,6 +245,7 @@ button.resetBtn:hover {
 
 .catdiv {
   transition: 0.2s;
+  white-space: nowrap;
 }
 
 .catimg {
@@ -386,6 +387,7 @@ p.zoomtext {
   margin: 0;
   font-size: 1.3vw;
   width: 15%;
+  white-space: nowrap;
 }  
 
 #homepgBtn .material-icons {
