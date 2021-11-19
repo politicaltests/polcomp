@@ -32,7 +32,7 @@ thby: "-", branches: "-", govt: "Authoritarian", econ: "Fascist, Corporatist", c
 monarchism = { group: "Category", 
 name: "Monarchism", link: "https://en.wikipedia.org/wiki/Monarchism", 
 desc: "Monarchism is a form of government in which a person, the monarch, is head of state for life or until abdication. The political legitimacy and authority of the monarch may vary from restricted and largely symbolic (constitutional monarchy), to fully autocratic (absolute monarchy).", 
-thby: "-", branches: "Absolute, Semi-Constitutional, Constitutional", govt: "Varies", econ: "Varies", cult: "Neutral", dipl: "Varies" };
+thby: "-", branches: "Absolute, Constitutional", govt: "Varies", econ: "Varies", cult: "Neutral", dipl: "Varies" };
 
 authcap = { group: "Category", 
 name: "Authoritarian Capitalism", link: "https://en.wikipedia.org/wiki/Authoritarian_capitalism", 
