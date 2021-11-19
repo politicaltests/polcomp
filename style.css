@@ -403,8 +403,8 @@ p.zoomtext {
 /* Floating Button */
 .float {
   position: fixed;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   bottom: 40px;
   left: 40px;
   background-color: #2e86c1;
@@ -440,5 +440,5 @@ p.zoomtext {
   .caticon { width: 1.5vw; height: 1.5vw; }
   .column p:not(.group), .column1 p, button.resetBtn, button.resetBtn .material-icons, .group, .group .material-icons { font-size: 2vw; }
   .float { width: 90px; height: 90px; }
-  .float-text .material-icons { font-size: 2em; }
+  .float-text .material-icons { font-size: 35px; }
 }
