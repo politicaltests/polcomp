@@ -410,10 +410,13 @@ p.zoomtext {
   color: #FFF;
   border-radius: 50px;
   text-align: center;
+  border: 2px white solid;
+  transition: transform .2s;
 }
 
-float:hover {
+.float:hover {
   background-color: #5dade2
+  transform: scale(1.05);
 }
 
 .float-text {
