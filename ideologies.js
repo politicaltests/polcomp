@@ -139,5 +139,6 @@ thby: "-", branches: "-", govt: "Autocratic", econ: "Varies", cult: "Conservativ
 
 //Authoritarian Capitalism
 pinochet = { group: "Monarchism<span class='material-icons'>chevron_right</span>Hereditary", 
-name: "Pinochetism is an authoritarian ideology that is characterized by the suppression of opposition, conservatism, and Anti-Communism. It was under the influence of the Chicago School of economics, and it seeks to implement economic liberalization.", 
+name: "Pinochetism",
+desc: "Pinochetism is an authoritarian ideology that is characterized by the suppression of opposition, conservatism, and Anti-Communism. It was under the influence of the Chicago School of economics, and it seeks to implement economic liberalization.", 
 thby: "-", branches: "-", govt: "Autocratic", econ: "Varies", cult: "Conservative", dipl: "Varies" };
