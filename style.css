@@ -399,6 +399,29 @@ p.zoomtext {
   vertical-align: middle;
 }
 
+/* Floating Button */
+.float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #2e86c1;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+float:hover {
+  background-color: #5dade2
+}
+
+.float-text {
+	margin-top: 22px;
+  color: white;
+}
+
 /* Mobile */
 @media only screen and (max-aspect-ratio: 1.5/1) {
   h1          { font-size: 60pt; }
