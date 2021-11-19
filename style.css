@@ -311,7 +311,7 @@ button.resetBtn:hover {
   font-family: 'Barlow Semi Condensed', sans-serif;  
   overflow-wrap: break-word;
   word-wrap: break-word;
-  margin: 20% 0 20% 0;
+  margin: 0 0 20% 0;
 }
 
 .grid-label .ideoshort {
