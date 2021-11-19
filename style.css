@@ -425,7 +425,7 @@ p.zoomtext {
 }
 
 /* Mobile */
-@media only screen and (max-aspect-ratio: 1.4/1) or (orientation:portrait) {
+@media only screen and (max-aspect-ratio: 1.4/1) {
   h1          { font-size: 60pt; }
   h2          { width: 100%; margin: 0; }
   .element p  { width: 100% }
