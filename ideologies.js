@@ -121,6 +121,11 @@ name: "Neo-Fascism", link: "https://en.wikipedia.org/wiki/Neo-fascism",
 desc: "Neo-Fascism is a post-World War II ideology that includes significant elements of fascism. Neo-fascism usually includes ultranationalism, racial supremacy, populism, authoritarianism, nativism, xenophobia and anti-immigration sentiment.", 
 thby: "-", branches: "-", govt: "Totalitarian", econ: "Corporatist", cult: "Reactionary", dipl: "Ultranationalist" };
 
+britfash = { group: "British Fascism", 
+name: "British Fascism", link: "https://en.wikipedia.org/wiki/Italian_Fascism", 
+desc: "British Fascism is a form of fascism that promoted nationalism, racialism, non-interventionism, corporatism, a syndicalist economy, modernism, and traditionalism. It is based on British ultranationalism, and had aspects of Italian Fascism and Nazism both before and after World War II.", 
+thby: "Multiple, incl. Oswald Mosley", branches: "-", govt: "Totalitarian", econ: "National Syndicalist", cult: "Conservative", dipl: "Nationalist, Non-Interventionist" };
+
 japfash = { group: "Fascism<span class='material-icons'>chevron_right</span>Post-WW2 Fascism", 
 name: "Neo-Fascism", link: "https://en.wikipedia.org/wiki/Neo-fascism", 
 desc: "Japanese Fascism refers to the political syncretism of extreme ideologies under the Japanese Empire. It was a mixture of ideas such as Japanese ultranationalism, militarism, fascism and state capitalism.", 
