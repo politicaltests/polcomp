@@ -406,7 +406,7 @@ p.zoomtext {
   width: 70px;
   height: 70px;
   bottom: 40px;
-  left: 40px;
+  right: 40px;
   background-color: #2e86c1;
   color: #FFF;
   border-radius: 50px;
@@ -425,7 +425,7 @@ p.zoomtext {
 }
 
 /* Mobile */
-@media only screen and (max-aspect-ratio: 1.4/1) {
+@media only screen and (max-aspect-ratio: 1.4/1) or (orientation:portrait) {
   h1          { font-size: 60pt; }
   h2          { width: 100%; margin: 0; }
   .element p  { width: 100% }
