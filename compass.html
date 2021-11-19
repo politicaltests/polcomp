@@ -146,6 +146,8 @@
   </div>
   
 </div>
+
+<button onclick="toggleBottombar()" class="float"><span class="material-icons float-text">vertical_align_bottom</span></button>
 </body>
 
 <script type="application/javascript" src="ideologies.js"></script>
@@ -303,4 +305,12 @@ function zoom(_target,_scale) {
   document.getElementById(_target).style.transform = "scale("+_scale+")";
 }
   
+function toggleBottombar()
+  var x = document.getElementById("bottombar");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+} 
 </script>
