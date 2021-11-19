@@ -276,6 +276,7 @@ $.fn.showReset = function() {
 //Regular JS
 function changeText(example) {
   var link = example.link;
+  var x = document.getElementById("bottombar");
   document.getElementById("link").href = link;
   document.getElementById("group").innerHTML = example.group;
   document.getElementById("name").innerHTML = example.name;
@@ -285,7 +286,8 @@ function changeText(example) {
   document.getElementById("government").innerHTML = example.govt;
   document.getElementById("economics").innerHTML = example.econ;
   document.getElementById("culture").innerHTML = example.cult;
-  document.getElementById("diplomacy").innerHTML = example.dipl;  
+  document.getElementById("diplomacy").innerHTML = example.dipl;
+  x.style.opacity = "1";
 }
   
 function reset() {
