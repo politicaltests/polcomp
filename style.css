@@ -415,7 +415,7 @@ p.zoomtext {
 }
 
 .float:hover {
-  background-color: #5dade2
+  background-color: #5dade2;
   transform: scale(1.05);
 }
 
