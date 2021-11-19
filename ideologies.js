@@ -93,7 +93,7 @@ thby: "Multiple, incl. Nikolay Ustryalov", branches: "-", govt: "Totalitarian", 
 strasserism = { group: "Fascism<span class='material-icons'>chevron_right</span>National Socialism", 
 name: "Strasserism", link: "https://en.wikipedia.org/wiki/Strasserism", 
 desc: "Strasserism is a strand of Nazism that calls for a more radical, mass-action and worker-based form of Nazism—hostile to Jews not from a racial, cultural or religious perspective, but from an anti-capitalist basis—to achieve a national rebirth. It derives its name from Gregor and Otto Strasser, two brothers initially associated with this position. ", 
-thby: "Joseph Stalin", branches: "-", govt: "Totalitarian", econ: "Socialist", cult: "Reactionary", dipl: "Ultranationalist" };
+thby: "Gregor Strasser, Otto Strasser", branches: "-", govt: "Totalitarian", econ: "Socialist", cult: "Reactionary", dipl: "Ultranationalist" };
 
 maoism = { group: "Marxism<span class='material-icons'>chevron_right</span>Marxism-Leninism", 
 name: "Maoism", link: "https://en.wikipedia.org/wiki/Maoism", 
@@ -104,3 +104,35 @@ juche = { group: "Marxism<span class='material-icons'>chevron_right</span>Marxis
 name: "Juche", link: "https://en.wikipedia.org/wiki/Juche", 
 desc: "Juche is the state ideology of North Korea, and it incorporates the historical materialist ideas of Marxism–Leninism, and strongly emphasized the individual, the nation state and its sovereignty. It claims that by becoming self-reliant and strong, a nation can achieve true socialism.", 
 thby: "Kim Il-Sung", branches: "-", govt: "Totalitarian", econ: "Communist", cult: "Neutral", dipl: "Nationalist" };
+
+//Fascism
+nazism = { group: "Fascism", 
+name: "National Socialism", link: "https://en.wikipedia.org/wiki/Nazism", 
+desc: "National Socialism, often shortened as Nazism, is a totalitarian ideology that has disdain for liberal democracy and the parliamentary system, and advocates for ideas like antisemitism, anti-communism, scientific racism, German nationalism, and eugenics.", 
+thby: "Adolf Hitler", branches: "Strasserism", govt: "Totalitarian", econ: "Social Darwinism", cult: "Reactionary", dipl: "Ultranationalist" };
+
+italfash = { group: "Fascism", 
+name: "Italian Fascism", link: "https://en.wikipedia.org/wiki/Italian_Fascism", 
+desc: "Italian Fascism, or Classical Fascism, is the original fascist ideology as developed in Italy. It is a form of authoritarian ultranationalism characterized by dictatorial power, forcible suppression of opposition, and strong regimentation of society and of the economy.", 
+thby: "Benito Mussolini, Giovanni Gentile", branches: "-", govt: "Totalitarian", econ: "Fascist, Corporatist", cult: "Reactionary", dipl: "Ultranationalist" };
+
+neofash = { group: "Fascism<span class='material-icons'>chevron_right</span>Post-WW2 Fascism", 
+name: "Neo-Fascism", link: "https://en.wikipedia.org/wiki/Neo-fascism", 
+desc: "Neo-Fascism is a post-World War II ideology that includes significant elements of fascism. Neo-fascism usually includes ultranationalism, racial supremacy, populism, authoritarianism, nativism, xenophobia and anti-immigration sentiment.", 
+thby: "-", branches: "-", govt: "Totalitarian", econ: "Corporatist", cult: "Reactionary", dipl: "Ultranationalist" };
+
+japfash = { group: "Fascism<span class='material-icons'>chevron_right</span>Post-WW2 Fascism", 
+name: "Neo-Fascism", link: "https://en.wikipedia.org/wiki/Neo-fascism", 
+desc: "Japanese Fascism refers to the political syncretism of extreme ideologies under the Japanese Empire. It was a mixture of ideas such as Japanese ultranationalism, militarism, fascism and state capitalism.", 
+thby: "-", branches: "-", govt: "Totalitarian", econ: "State Capitalist", cult: "Conservative", dipl: "Ultranationalist, Militarist" };
+
+//Monarchism
+absmon = { group: "Monarchism<span class='material-icons'>chevron_right</span>Hereditary", 
+name: "Absolute Monarchism", link: "https://en.wikipedia.org/wiki/Absolute_monarchy", 
+desc: "Absolute Monarchism is a form of monarchy in which the monarch holds supreme autocratic authority, principally not being restricted by written laws, legislature, or unwritten customs.", 
+thby: "-", branches: "-", govt: "Autocratic", econ: "Varies", cult: "Conservative", dipl: "Varies" };
+
+//Authoritarian Capitalism
+pinochet = { group: "Monarchism<span class='material-icons'>chevron_right</span>Hereditary", 
+name: "Pinochetism is an authoritarian ideology that is characterized by the suppression of opposition, conservatism, and Anti-Communism. It was under the influence of the Chicago School of economics, and it seeks to implement economic liberalization.", 
+thby: "-", branches: "-", govt: "Autocratic", econ: "Varies", cult: "Conservative", dipl: "Varies" };
