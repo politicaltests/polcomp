@@ -292,10 +292,8 @@ $.fn.showReset = function() {
   $("#resetbt").css("display", "block");
 }
   
-  
 var $temp = $("<input>");
 var $url = $(location).attr('href');
-  
 $('#float3').click(function() {
   $("body").append($temp);
   $temp.val($url).select();
@@ -303,6 +301,10 @@ $('#float3').click(function() {
   $temp.remove();
   $("#copyspan").text("done");
 });
+  
+$('#float1').click(function() {
+  $("#copyspan").text("link");
+}
   
 //Regular JS
 function changeText(example) {
