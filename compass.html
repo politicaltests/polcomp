@@ -163,9 +163,9 @@
   
 </div>
 
-<button onclick="toggleBottombar()" class="float" id="float1"><span class="material-icons float-text">menu</span></button>
+<button onclick="showBtns()" class="float" id="float1"><span class="material-icons float-text">menu</span></button>
 <button onclick="toggleBottombar()" class="float" id="float2"><span class="material-icons float-text">expand</span></button>
-<button onclick="toggleBottombar()" class="float" id="float3"><span class="material-icons float-text">home</span></button>
+<button onclick="location.href='index.html'" class="float" id="float3"><span class="material-icons float-text">home</span></button>
 </body>
 
 <script type="application/javascript" src="ideologies.js"></script>
@@ -325,12 +325,24 @@ function zoom(_target,_scale) {
   document.getElementById(_target).style.transform = "scale("+_scale+")";
 }
   
-function toggleBottombar() {
-  var x = document.getElementById("bottombar");
-  if (x.style.opacity === "0") {
-    x.style.opacity = "1";
+function showBtns() {
+  var x = document.getElementById("float2");
+  var y = document.getElementById("float3");
+  if (x.style.right === "-100px") {
+    x.style.right = "40px";
+    y.style.right = "40px";
   } else {
-    x.style.opacity = "0";
+    x.style.right = "-100px";
+    x.style.right = "-100px";
+  }
+} 
+  
+function toggleBottombar() {
+  var z = document.getElementById("bottombar");
+  if (z.style.opacity === "0") {
+    z.style.opacity = "1";
+  } else {
+    z.style.opacity = "0";
   }
 } 
 </script>
