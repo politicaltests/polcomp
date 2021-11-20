@@ -293,8 +293,8 @@ $.fn.showReset = function() {
 }
   
   
-var $temp = $("<button>");
-var $url = "https://politicaltests.github.io/polcomp/compass.html";
+var $temp = $("<input>");
+var $url = $(location).attr('href');
   
 $('#float3').click(function() {
   $("body").append($temp);
