@@ -74,7 +74,7 @@ name: "Right-Libertarianism", link: "https://en.wikipedia.org/wiki/Anarcho-capit
 desc: "Right-Anarchism refers to a set of ideologies that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.", 
 thby: "-", branches: "-", govt: "Libertarian", econ: "Capitalist", cult: "Neutral", dipl: "Neutral" };
 
-//Marxism-Leninism
+//Row 1
 polpotism = { group: "Marxism<span class='material-icons'>chevron_right</span>Marxism-Leninism", 
 name: "Pol Potism", link: "https://en.wikipedia.org/wiki/Pol_Pot#Political_ideology", 
 desc: "Pol Potism is a variant of orthodox Marxism–Leninism, but it believes in the ideal of an entirely self-sufficient and agrarian socialist society that would be entirely free from all foreign influences. It's an extreme variant of Marxism-Leninism that is considered extremely totalitarian.", 
@@ -105,8 +105,7 @@ name: "Juche", link: "https://en.wikipedia.org/wiki/Juche",
 desc: "Juche is the state ideology of North Korea, and it incorporates the historical materialist ideas of Marxism–Leninism, and strongly emphasized the individual, the nation state and its sovereignty. It claims that by becoming self-reliant and strong, a nation can achieve true socialism.", 
 thby: "Kim Il-Sung", branches: "-", govt: "Totalitarian", econ: "Communist", cult: "Neutral", dipl: "Nationalist" };
 
-//Fascism
-nazism = { group: "Fascism", 
+nazism = { group: "Fascism<span class='material-icons'>chevron_right</span>National Socialism", 
 name: "National Socialism", link: "https://en.wikipedia.org/wiki/Nazism", 
 desc: "National Socialism, often shortened as Nazism, is a totalitarian ideology that has disdain for liberal democracy and the parliamentary system, and advocates for ideas like antisemitism, anti-communism, scientific racism, German nationalism, and eugenics.", 
 thby: "Adolf Hitler", branches: "Strasserism", govt: "Totalitarian", econ: "Social Darwinism", cult: "Reactionary", dipl: "Ultranationalist" };
@@ -131,14 +130,28 @@ name: "Neo-Fascism", link: "https://en.wikipedia.org/wiki/Neo-fascism",
 desc: "Japanese Fascism refers to the political syncretism of extreme ideologies under the Japanese Empire. It was a mixture of ideas such as Japanese ultranationalism, militarism, fascism and state capitalism.", 
 thby: "-", branches: "-", govt: "Totalitarian", econ: "State Capitalist", cult: "Conservative", dipl: "Ultranationalist, Militarist" };
 
-//Monarchism
 absmon = { group: "Monarchism<span class='material-icons'>chevron_right</span>Hereditary", 
 name: "Absolute Monarchism", link: "https://en.wikipedia.org/wiki/Absolute_monarchy", 
 desc: "Absolute Monarchism is a form of monarchy in which the monarch holds supreme autocratic authority, principally not being restricted by written laws, legislature, or unwritten customs.", 
 thby: "-", branches: "-", govt: "Autocratic", econ: "Varies", cult: "Conservative", dipl: "Varies" };
 
-//Authoritarian Capitalism
 pinochet = { group: "Monarchism<span class='material-icons'>chevron_right</span>Hereditary", 
 name: "Pinochetism", link: "https://en.wikipedia.org/wiki/Augusto_Pinochet", 
 desc: "Pinochetism is an authoritarian ideology that is characterized by the suppression of opposition, conservatism, and Anti-Communism. It was under the influence of the Chicago School of economics, and it seeks to implement economic liberalization.", 
-thby: "-", branches: "-", govt: "Autocratic", econ: "Varies", cult: "Conservative", dipl: "Varies" };
+thby: "Augusto Pinochet", branches: "-", govt: "Autocratic", econ: "Varies", cult: "Conservative", dipl: "Varies" };
+
+//Row 2
+hoxhaism = { group: "Marxism<span class='material-icons'>chevron_right</span>Marxism-Leninism<span class='material-icons'>chevron_right</span>Anti-Revisionism", 
+name: "Hoxhaism", link: "https://en.wikipedia.org/wiki/Hoxhaism", 
+desc: "Hoxhaism is a variant of anti-revisionist Marxism–Leninism that developed in the late 1970s due to a split in the anti-revision movement. It is characterized by a strict defense of Stalinism, totalitarianism, Anti-Revisionism, and a criticism of the US, USSR, PRC, and Yugoslavia.", 
+thby: "Enver Hoxha", branches: "-", govt: "Authoritarian", econ: "Communist", cult: "Neutral", dipl: "Neutral" };
+
+castro = { group: "Marxism<span class='material-icons'>chevron_right</span>Marxism-Leninism", 
+name: "Castroism", link: "https://en.wikipedia.org/wiki/Politics_of_Fidel_Castro", 
+desc: "Castroism refers to the politics of Fidel Castro, a leader of Cuba. It believes in converting countries from a capitalist system in which individuals own the means of production into a socialist system in which the means of production are owned by the workers.", 
+thby: "Fidel Castro", branches: "-", govt: "Authoritarian", econ: "Communist", cult: "Neutral", dipl: "Neutral" };
+
+statesoc = { group: "Socialism", 
+name: "State Socialism", link: "https://en.wikipedia.org/wiki/State_socialism", 
+desc: "State socialism is a political and economic ideology within the socialist movement advocating state ownership of the means of production, either as a temporary measure or as a characteristic of socialism in the transition from the capitalist to the socialist mode of production or communist society.", 
+thby: "-", branches: "-", govt: "Authoritarian", econ: "Socialist", cult: "Neutral", dipl: "Neutral" };
