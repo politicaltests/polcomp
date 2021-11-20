@@ -426,7 +426,7 @@ p.zoomtext {
 }
 
 /* Mobile */
-@media only screen and (max-aspect-ratio: 1.4/1) {
+@media only screen and (max-width: 1000px) {
   h1          { font-size: 60pt; }
   h2          { width: 100%; margin: 0; }
   .element p  { width: 100% }
