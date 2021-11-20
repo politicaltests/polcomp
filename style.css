@@ -419,7 +419,7 @@ p.zoomtext {
 }
 
 #float1 {
-  background-color: #2e86c1;
+  background: linear-gradient(45deg, rgba(30,136,229,1) 0%, rgba(0,188,212,1) 100%);
   bottom: 40px;
   right: 40px;
   width: 3.5vw;
@@ -427,15 +427,15 @@ p.zoomtext {
 }
 
 #float2 {
-  background-color: #27ae60;
-  bottom: 130px;
+  background: linear-gradient(45deg, rgba(39,174,96,1) 0%, rgba(156,204,101,1) 100%); 
+  bottom: 120px;
   right: -100px;
   transition: right .1s, transform .2s;
 }
 
 #float3 {
-  background-color: #f39c12;
-  bottom: 200px;
+  background: linear-gradient(45deg, rgba(251,140,0,1) 0%, rgba(255,138,101,1) 100%);
+  bottom: 190px;
   right: -100px;
   transition: right .2s, transform .2s;
 }
