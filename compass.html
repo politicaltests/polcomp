@@ -165,7 +165,8 @@
 
 <button onclick="showBtns()" class="float" id="float1"><span class="material-icons float-text">menu</span></button>
 <button onclick="toggleBottombar()" class="float" id="float2"><span class="material-icons float-text">expand</span></button>
-<button onclick="location.href='index.html'" class="float" id="float3"><span class="material-icons float-text">home</span></button>
+<button class="float" id="float3"><span class="material-icons float-text" id="copyspan">link</span></button>
+<button onclick="location.href='index.html'" class="float" id="float4"><span class="material-icons float-text">home</span></button>
 </body>
 
 <script type="application/javascript" src="ideologies.js"></script>
@@ -290,6 +291,18 @@ $.fn.showReset = function() {
   $("#resethr").css("display", "block");
   $("#resetbt").css("display", "block");
 }
+  
+  
+var $temp = $("<input>");
+var $url = $(location).attr('href');
+
+$('.clipboard').on('click', function() {
+  $("body").append($temp);
+  $temp.val($url).select();
+  document.execCommand("copy");
+  $temp.remove();
+  $("#copyspan").text("done");
+})
   
 //Regular JS
 function changeText(example) {
