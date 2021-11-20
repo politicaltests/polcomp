@@ -165,7 +165,6 @@ button.headerbtn:hover {
 
 .column1 {
   width: 50%;
-  padding-right: 20px;
   box-sizing: border-box;
 }
 
@@ -438,7 +437,7 @@ p.zoomtext {
   .element p  { width: 100% }
   .bottombar  { flex-wrap: wrap; }
   .column1    { width: 100%; }
-  .column     { width: 50%; }
+  .column     { width: 45%; }
   .maindiv    { flex-wrap: wrap; padding: 0; margin-bottom: 2vw; }
   .categories { display: flex; width: 100%; justify-content: space-around; align-items: center; border-radius: 0; }
   .grid-outercont { width: 100%; border-radius: 0; }
