@@ -410,8 +410,8 @@ p.zoomtext {
 .float {
   position: fixed;
   color: #FFF;
-  width: 50px;
-  height: 50px;
+  width: 3vw;
+  height: 3vw;
   border-radius: 50px;
   text-align: center;
   border: 2px white solid;
@@ -422,20 +422,20 @@ p.zoomtext {
   background-color: #2e86c1;
   bottom: 40px;
   right: 40px;
-  width: 70px;
-  height: 70px;
+  width: 3.5vw;
+  height: 3.5vw;
 }
 
 #float2 {
   background-color: #27ae60;
-  bottom: 140px;
+  bottom: 130px;
   right: -100px;
   transition: right .1s;
 }
 
 #float3 {
   background-color: #f39c12;
-  bottom: 210px;
+  bottom: 200px;
   right: -100px;
   transition: right .2s;
 }
@@ -468,6 +468,4 @@ p.zoomtext {
   #homepgBtn:hover { transform: none; }
   .zoomdiv { width: 100%; border-radius: 0; border-style: solid none solid none; border: 4px white solid; border-style: none; }
   div.secondgroup { padding: 0 !important; flex-wrap: wrap; }
-  .float { width: 90px; height: 90px; }
-  .float-text .material-icons { font-size: 35px; }
 }
