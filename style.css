@@ -1,5 +1,5 @@
 html {
-  background-color: #2e3440;
+  background: linear-gradient(156deg, rgba(46,52,64,1) 0%, rgba(76,86,106,1) 100%); 
   padding: 0px;
   margin: 0px;
   scroll-behavior: smooth;
