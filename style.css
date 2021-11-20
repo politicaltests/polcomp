@@ -428,14 +428,16 @@ p.zoomtext {
 
 #float2 {
   background-color: #27ae60;
-  bottom: 150px;
+  bottom: 140px;
   right: -100px;
+  transition: right .1s;
 }
 
 #float3 {
   background-color: #f39c12;
-  bottom: 220px;
+  bottom: 210px;
   right: -100px;
+  transition: right .2s;
 }
 
 .float:hover {
