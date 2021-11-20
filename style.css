@@ -442,6 +442,7 @@ p.zoomtext {
   .column p:not(.group), .column1 p, button.resetBtn, button.resetBtn .material-icons, .group, .group .material-icons { font-size: 2vw; }
   #homepgBtn { border-radius: 0; font-size: 3.5vw; width: 100%; padding: 2vw; border-style: none; }
   #homepgBtn .material-icons { font-size: 3vw; }
+  #homepgBtn:hover { transform: none; }
   .zoomdiv { width: 100%; border-radius: 0; border-style: solid none solid none; border: 4px white solid; border-style: none; }
   div.secondgroup { padding: 0 !important; flex-wrap: wrap; }
   .float { width: 90px; height: 90px; }
