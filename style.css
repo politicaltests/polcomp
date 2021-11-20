@@ -433,13 +433,16 @@ p.zoomtext {
   .bottombar  { flex-wrap: wrap; }
   .column1    { width: 100%; }
   .column     { width: 50%; }
-  .maindiv    { flex-wrap: wrap; }
-  .categories { display: flex; width: 100%; justify-content: space-around; align-items: center; }
-  .grid-outercont { width: 100%; }
+  .maindiv    { flex-wrap: wrap; padding: 0; margin-bottom: 2vw; }
+  .categories { display: flex; width: 100%; justify-content: space-around; align-items: center; border-radius: 0; }
+  .grid-outercont { width: 100%; border-radius: 0; }
   .catimg { width: 20vmin; height: 20vmin; margin-bottom: 0; margin-right: 10px; }
   .categories p { font-size: 2.2vw; }
   .caticon { width: 1.5vw; height: 1.5vw; }
   .column p:not(.group), .column1 p, button.resetBtn, button.resetBtn .material-icons, .group, .group .material-icons { font-size: 2vw; }
+  #homepgBtn { border-radius: 0; font-size: 3.5vw; width: 100%; padding: 2vw; border-style: none; }
+  #homepgBtn .material-icons { font-size: 3vw; }
+  .zoomdiv { width: 100%; border-radius: 0; border-style: solid none solid none; border: 4px white solid; border-style: none; }
   .float { width: 90px; height: 90px; }
   .float-text .material-icons { font-size: 35px; }
 }
