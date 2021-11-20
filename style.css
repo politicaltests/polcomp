@@ -138,6 +138,7 @@ button.headerbtn:hover {
   padding: 10px 30px 10px 30px;
   background-color: #3b4252;
   position: sticky;
+  top: calc(100vh - 22%);
   bottom: 0;
   box-sizing: border-box;
   display: flex;
