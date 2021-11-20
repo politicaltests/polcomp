@@ -293,9 +293,9 @@ $.fn.showReset = function() {
 }
   
   
-var $temp = $("<input>");
+var $temp = $("<button>");
 var $url = $(location).attr('href');
-$('.clipboard').click(function() {
+$('#float3').click(function() {
   $("body").append($temp);
   $temp.val($url).select();
   document.execCommand("copy");
