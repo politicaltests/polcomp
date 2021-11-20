@@ -136,6 +136,7 @@ button.headerbtn:hover {
 .bottombar {
   height: 22%;
   padding: 10px 30px 10px 30px;
+  gap: 1vw;
   background-color: #3b4252;
   position: sticky;
   top: calc(100vh - 22%);
