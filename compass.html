@@ -295,14 +295,13 @@ $.fn.showReset = function() {
   
 var $temp = $("<input>");
 var $url = $(location).attr('href');
-
-$('.clipboard').on('click', function() {
+$('.clipboard').click(function() {
   $("body").append($temp);
   $temp.val($url).select();
   document.execCommand("copy");
   $temp.remove();
   $("#copyspan").text("done");
-})
+});
   
 //Regular JS
 function changeText(example) {
