@@ -341,21 +341,24 @@ function zoom(_target,_scale) {
 function showBtns() {
   var x = document.getElementById("float2");
   var y = document.getElementById("float3");
+  var z = document.getElementById("float4");
   if (x.style.right === "45px") {
     x.style.right = "-100px";
     y.style.right = "-100px";
+    z.style.right = "-100px";
   } else {
     x.style.right = "45px";
     y.style.right = "45px";
+    z.style.right = "45px";
   }
 } 
   
 function toggleBottombar() {
-  var z = document.getElementById("bottombar");
-  if (z.style.opacity === "0") {
-    z.style.opacity = "1";
+  var b = document.getElementById("bottombar");
+  if (b.style.opacity === "0") {
+    b.style.opacity = "1";
   } else {
-    z.style.opacity = "0";
+    b.style.opacity = "0";
   }
 } 
 </script>
