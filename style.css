@@ -409,20 +409,36 @@ p.zoomtext {
 /* Floating Button */
 .float {
   position: fixed;
-  width: 70px;
-  height: 70px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #2e86c1;
   color: #FFF;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
   text-align: center;
   border: 2px white solid;
   transition: transform .2s;
 }
 
+#float1 {
+  background-color: #2e86c1;
+  bottom: 40px;
+  right: 40px;
+  width: 70px;
+  height: 70px;
+}
+
+#float2 {
+  background-color: #27ae60;
+  bottom: 150px;
+  right: -100px;
+}
+
+#float3 {
+  background-color: #f39c12;
+  bottom: 220px;
+  right: -100px;
+}
+
 .float:hover {
-  background-color: #5dade2;
   transform: scale(1.1);
 }
 
