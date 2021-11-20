@@ -141,7 +141,7 @@ desc: "Pinochetism is an authoritarian ideology that is characterized by the sup
 thby: "Augusto Pinochet", branches: "-", govt: "Autocratic", econ: "Varies", cult: "Conservative", dipl: "Varies" };
 
 //Row 2
-hoxhaism = { group: "Marxism<span class='material-icons'>chevron_right</span>Marxism-Leninism<span class='material-icons'>chevron_right</span>Anti-Revisionism", 
+hoxhaism = { group: "Marxism<span class='material-icons'>chevron_right</span>Marxism-Leninism<span class='material-icons'>chevron_right</span><br>Anti-Revisionism", 
 name: "Hoxhaism", link: "https://en.wikipedia.org/wiki/Hoxhaism", 
 desc: "Hoxhaism is a variant of anti-revisionist Marxism–Leninism that developed in the late 1970s due to a split in the anti-revision movement. It is characterized by a strict defense of Stalinism, totalitarianism, Anti-Revisionism, and a criticism of the US, USSR, PRC, and Yugoslavia.", 
 thby: "Enver Hoxha", branches: "-", govt: "Authoritarian", econ: "Communist", cult: "Neutral", dipl: "Neutral" };
@@ -155,3 +155,5 @@ statesoc = { group: "Socialism",
 name: "State Socialism", link: "https://en.wikipedia.org/wiki/State_socialism", 
 desc: "State socialism is a political and economic ideology within the socialist movement advocating state ownership of the means of production, either as a temporary measure or as a characteristic of socialism in the transition from the capitalist to the socialist mode of production or communist society.", 
 thby: "-", branches: "-", govt: "Authoritarian", econ: "Socialist", cult: "Neutral", dipl: "Neutral" };
+
+
