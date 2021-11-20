@@ -443,7 +443,7 @@ p.zoomtext {
   #homepgBtn { border-radius: 0; font-size: 3.5vw; width: 100%; padding: 2vw; border-style: none; }
   #homepgBtn .material-icons { font-size: 3vw; }
   .zoomdiv { width: 100%; border-radius: 0; border-style: solid none solid none; border: 4px white solid; border-style: none; }
-  .secondgroup { padding: 0; flex-wrap: wrap; }
+  .secondgroup { padding: 0px; flex-wrap: wrap; }
   .float { width: 90px; height: 90px; }
   .float-text .material-icons { font-size: 35px; }
 }
