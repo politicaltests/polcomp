@@ -156,4 +156,17 @@ name: "State Socialism", link: "https://en.wikipedia.org/wiki/State_socialism",
 desc: "State socialism is a political and economic ideology within the socialist movement advocating state ownership of the means of production, either as a temporary measure or as a characteristic of socialism in the transition from the capitalist to the socialist mode of production or communist society.", 
 thby: "-", branches: "-", govt: "Authoritarian", econ: "Socialist", cult: "Neutral", dipl: "Neutral" };
 
+baathism = { group: "Socialism<span class='material-icons'>chevron_right</span>Arab Socialism", 
+name: "State Socialism", link: "https://en.wikipedia.org/wiki/State_socialism", 
+desc: "Baathism, translated as 'renaissance' or 'resurrection', is an Arab nationalist ideology which promotes the creation and development of a unified Arab state through the leadership of a vanguard party over a progressive revolutionary government.", 
+thby: "-", branches: "-", govt: "Generally Authoritarian", econ: "Socialist", cult: "Progressive, Traditional", dipl: "Neutral" };
 
+arabsoc = { group: "Socialism<span class='material-icons'>chevron_right</span>Arab Socialism", 
+name: "Arab Socialism", link: "https://en.wikipedia.org/wiki/State_socialism", 
+desc: "Arab Socialism is a political ideology based on the combination of pan-Arabism and socialism. According to Arab Socialism, socialism is subservient to the Arab unity project and liberty, however, it believes that fighting for Arab liberation and unity is the same as fighting for socialism.", 
+thby: "-", branches: "-", govt: "Authoritarian-Leaning", econ: "Socialist", cult: "Conservative", dipl: "Nationalist" };
+
+falangism = { group: "Falangism", 
+name: "Arab Socialism", link: "https://en.wikipedia.org/wiki/State_socialism", 
+desc: "Falangism is the political ideology of two political parties in Spain that were known as the Falange. It places a strong emphasis on Catholic religious identity, although it has held some secular views. Falangism emphasized the need for total authority, hierarchy and order in society.", 
+thby: "-", branches: "-", govt: "Authoritarian-Leaning", econ: "Socialist", cult: "Conservative", dipl: "Nationalist" };
