@@ -484,6 +484,6 @@ p.zoomtext {
   .zoomdiv { width: 100%; border-radius: 0; border-style: solid none solid none; border: 4px white solid; border-style: none; }
   div.secondgroup { padding: 0 !important; flex-wrap: wrap; }
   #float1 { width: 5vmax; height: 5vmax; }
-  .float { width: 4vmax; }
+  .float { width: 4vmax; height: 4vmax; }
   #float2 { bottom: 160px; } #float3 { bottom: 280px; } #float4 { bottom: 400px; }
 }
