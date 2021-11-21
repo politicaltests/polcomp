@@ -410,8 +410,8 @@ p.zoomtext {
 .float {
   position: fixed;
   color: #FFF;
-  width: 3vw;
-  height: 3vw;
+  width: 3vmax;
+  height: 3vmax;
   border-radius: 50px;
   text-align: center;
   border: 2px white solid;
@@ -422,8 +422,8 @@ p.zoomtext {
   background: linear-gradient(45deg, rgba(30,136,229,1) 0%, rgba(0,188,212,1) 100%);
   bottom: 40px;
   right: 40px;
-  width: 3.5vw;
-  height: 3.5vw;
+  width: 3.5vmax;
+  height: 3.5vmax;
 }
 
 #float2 {
@@ -456,11 +456,11 @@ p.zoomtext {
 }
 
 .material-icons.float-text {
-  font-size: 1.2vw;
+  font-size: 1.2vmax;
 }
   
 #float1 .material-icons {
-  font-size: 1.5vw;
+  font-size: 1.5vmax;
 }
 
 /* Mobile */
