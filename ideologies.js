@@ -171,7 +171,7 @@ name: "Falangism", link: "https://en.wikipedia.org/wiki/Falangism",
 desc: "Falangism is the political ideology of two political parties in Spain that were known as the Falange. It places a strong emphasis on Catholic religious identity, although it has held some secular views. Falangism emphasized the need for total authority, hierarchy and order in society.", 
 thby: "-", branches: "-", govt: "Authoritarian-Leaning", econ: "National Syndicalist", cult: "Conservative", dipl: "Nationalist" };
 
-neobaath = { group: "Neo-Baathism", 
-name: "Falangism", link: "https://en.wikipedia.org/wiki/Falangism", 
+xijinping = { group: "Xi Jinping Thought", 
+name: "Neo-Baathism", link: "https://en.wikipedia.org/wiki/Ba'athism#Neo-Ba'athism", 
 desc: "Falangism is the political ideology of two political parties in Spain that were known as the Falange. It places a strong emphasis on Catholic religious identity, although it has held some secular views. Falangism emphasized the need for total authority, hierarchy and order in society.", 
 thby: "-", branches: "-", govt: "Authoritarian-Leaning", econ: "National Syndicalist", cult: "Conservative", dipl: "Nationalist" };
