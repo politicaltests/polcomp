@@ -455,6 +455,14 @@ p.zoomtext {
   color: white;
 }
 
+.material-icons.float-text {
+  font-size: 1.2vw;
+}
+  
+#float1 .material-icons {
+  font-size: 1.5vw;
+}
+
 /* Mobile */
 @media only screen and (max-width: 1000px) {
   h1          { font-size: 60pt; }
