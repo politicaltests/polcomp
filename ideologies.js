@@ -167,6 +167,11 @@ desc: "Arab Socialism is a political ideology based on the combination of pan-Ar
 thby: "-", branches: "-", govt: "Authoritarian-Leaning", econ: "Socialist", cult: "Conservative", dipl: "Nationalist" };
 
 falangism = { group: "Falangism", 
-name: "Arab Socialism", link: "https://en.wikipedia.org/wiki/State_socialism", 
+name: "Falangism", link: "https://en.wikipedia.org/wiki/Falangism", 
 desc: "Falangism is the political ideology of two political parties in Spain that were known as the Falange. It places a strong emphasis on Catholic religious identity, although it has held some secular views. Falangism emphasized the need for total authority, hierarchy and order in society.", 
-thby: "-", branches: "-", govt: "Authoritarian-Leaning", econ: "Socialist", cult: "Conservative", dipl: "Nationalist" };
+thby: "-", branches: "-", govt: "Authoritarian-Leaning", econ: "National Syndicalist", cult: "Conservative", dipl: "Nationalist" };
+
+neobaath = { group: "Neo-Baathism", 
+name: "Falangism", link: "https://en.wikipedia.org/wiki/Falangism", 
+desc: "Falangism is the political ideology of two political parties in Spain that were known as the Falange. It places a strong emphasis on Catholic religious identity, although it has held some secular views. Falangism emphasized the need for total authority, hierarchy and order in society.", 
+thby: "-", branches: "-", govt: "Authoritarian-Leaning", econ: "National Syndicalist", cult: "Conservative", dipl: "Nationalist" };
