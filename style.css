@@ -275,7 +275,7 @@ button.resetBtn:hover {
   grid-template-columns: calc(1/30 * 100%) calc(9/130 * 100%) calc(9/130 * 100%) calc(9/130 * 100%) calc(9/130 * 100%) calc(9/130 * 100%) calc(9/130 * 100%) calc(9/130 * 100%) calc(9/130 * 100%) calc(9/130 * 100%) calc(9/130 * 100%) calc(9/130 * 100%) calc(9/130 * 100%) calc(9/130 * 100%);
   /* grid-template-rows: calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%) calc(1/14 * 100%); */
   column-gap: calc(1/210 * 100%);
-  row-gap: 5px;
+  row-gap: calc(1/210 * 100%);
 }
 
 .grid-label {
