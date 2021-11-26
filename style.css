@@ -320,6 +320,10 @@ button.resetBtn:hover {
   margin: 0;
 }
 
+.grid-item > div {
+  min-width: 0;
+}
+
 .grid-label .ideoshort {
   font-size: 1.4vw;
   display: inline;
