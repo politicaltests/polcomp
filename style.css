@@ -320,7 +320,7 @@ button.resetBtn:hover {
   margin: 0;
 }
 
-.grid-item > div {
+.grid-item > p {
   min-width: 0;
 }
 
