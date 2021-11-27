@@ -296,7 +296,7 @@ button.resetBtn:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 6%;
+  padding: 5%;
   align-items: center;
   transition: 0.2s, box-shadow ease 0.1s;
 }
